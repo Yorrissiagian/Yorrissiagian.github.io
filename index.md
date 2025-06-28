@@ -4,9 +4,16 @@ title: "Portofolio Yorrissiagian"
 ---
 
 <style>
+body {
+  background-color: #e0f7fa;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #2c3e50;
+  padding: 2rem;
+}
+
 h1, h2 {
   text-align: center;
-  color: #2c3e50;
+  color: #01579b;
 }
 
 section {
@@ -14,17 +21,17 @@ section {
 }
 
 .project {
-  border: 1px solid #eaeaea;
+  border: 1px solid #b3e5fc;
   border-radius: 12px;
   padding: 1.5rem;
   margin: 1rem 0;
-  background: #f9f9f9;
+  background: #ffffff;
   box-shadow: 2px 2px 8px rgba(0,0,0,0.05);
 }
 
 .project h3 {
   margin-top: 0;
-  color: #2980b9;
+  color: #0277bd;
 }
 
 .project p {
@@ -36,11 +43,12 @@ section {
   padding: 0.3em 0.6em;
   margin: 0.1em;
   font-size: 0.85em;
-  background: #2980b9;
+  background: #0288d1;
   color: white;
   border-radius: 8px;
 }
 </style>
+
 
 # 👋 Halo! Saya Yorrissiagian
 
