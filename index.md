@@ -1,100 +1,163 @@
----
-layout: default
-title: "Portofolio Yorrissiagian"
----
-
 <style>
-body {
-  background-color: #e0f7fa;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-  color: #2c3e50;
-  padding: 2rem;
-}
+  body {
+    background-color: #e0f7fa;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    color: #2c3e50;
+    padding: 2rem;
+    line-height: 1.6;
+  }
 
-h1, h2, h3 {
-  text-align: center;
-  color: #01579b;
-}
+  h1, h2 {
+    text-align: center;
+    color: #01579b;
+  }
 
-.intro {
-  text-align: center;
-  margin-bottom: 2rem;
-}
+  section {
+    margin-bottom: 3rem;
+  }
 
-.projects {
-  max-width: 800px;
-  margin: 0 auto;
-}
+  .project {
+    border: 1px solid #b3e5fc;
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1.5rem 0;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
 
-.project {
-  background: #ffffff;
-  border-radius: 8px;
-  padding: 1.5rem;
-  margin-bottom: 2rem;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
-}
+  .project h3 {
+    margin-top: 0;
+    color: #0277bd;
+  }
 
-.project h3 {
-  margin-top: 0;
-}
+  .project p {
+    margin-bottom: 0.5rem;
+  }
 
-.badges {
-  margin: 0.5em 0;
-}
+  .badge {
+    display: inline-block;
+    padding: 0.35em 0.7em;
+    margin: 0.2em 0.2em 0 0;
+    font-size: 0.8em;
+    background: #0288d1;
+    color: white;
+    border-radius: 10px;
+  }
 
-.badge {
-  display: inline-block;
-  background: #0288d1;
-  color: white;
-  padding: 0.3em 0.6em;
-  border-radius: 5px;
-  margin: 0.2em;
-  font-size: 0.85em;
-}
+  a {
+    color: #01579b;
+    text-decoration: none;
+  }
 
-.read-more {
-  text-decoration: none;
-  color: #01579b;
-  font-weight: bold;
-}
+  a:hover {
+    text-decoration: underline;
+  }
+
+  .project img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }
 </style>
 
-# 👋 Halo, saya Yorrissiagian
+# 👋 Halo! Saya Yorrissiagian
 
-<div class="intro">
-Saya adalah fresh graduate yang mengembangkan sistem AI & Machine Learning end-to-end — dari EDA, modeling, deployment, hingga monitoring.<br>
-Lihat kode, demo, dan detail proyek saya di bawah atau kunjungi GitHub dan kontak saya lewat LinkedIn/email.
-</div>
+Fresh graduate yang fokus pada pengembangan sistem AI & Machine Learning end-to-end.  
+Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ---
 
-<div class="projects">
+## 💼 Tentang Saya
+> Lulusan teknik dengan minat kuat dalam membangun solusi AI yang berdampak.  
+> Fokus: Data preprocessing, modeling, deployment & monitoring model ML.  
+> Tools favorit: Python, scikit-learn, TensorFlow, Streamlit, MLflow, Prometheus, Metabase, Docker.
+
+---
 
 ## 🚀 Proyek Unggulan
 
-{% assign projects = site.data.projects %}
-{% for p in projects %}
+### 🌾 Deteksi Penyakit Tanaman Pertanian
 <div class="project">
-  {% if p.image %}<img src="{{ p.image }}" alt="{{ p.title }}" style="max-width:100%;border-radius:5px;margin-bottom:1rem;">{% endif %}
-  <h3><a href="{{ p.repo }}" target="_blank">{{ p.title }}</a></h3>
-  <p>{{ p.summary }}</p>
-  <div class="badges">
-    {% for tag in p.tags %}<span class="badge">{{ tag }}</span>{% endfor %}
-  </div>
-  {% if p.demo %}<p><a class="read-more" href="{{ p.demo }}" target="_blank">🔗 Lihat Demo</a></p>{% endif %}
+  <img src="URL_GAMBAR_1" alt="Deteksi Penyakit Tanaman">
+  <h3><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" target="_blank">Deteksi Penyakit Tanaman</a></h3>
+  <p>Proyek Computer Vision berbasis MobileNetV1 untuk mendeteksi penyakit tanaman. Dideploy dengan Streamlit.</p>
+  <p><strong>Peran:</strong> Pemimpin tim, pengujian model, deployment.</p>
+  <p>
+    <span class="badge">Classification</span>
+    <span class="badge">Streamlit</span>
+    <span class="badge">MobileNetV1</span>
+  </p>
+  <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Lihat Demo</a></p>
 </div>
-{% endfor %}
 
+### 🎓 Prediksi Dropout Mahasiswa
+<div class="project">
+  <img src="URL_GAMBAR_2" alt="Prediksi Dropout Mahasiswa">
+  <h3><a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" target="_blank">Prediksi Dropout Mahasiswa</a></h3>
+  <p>Model Random Forest untuk mendeteksi risiko dropout mahasiswa. Dilengkapi dashboard Metabase & aplikasi Streamlit.</p>
+  <p>
+    <span class="badge">Classification</span>
+    <span class="badge">Metabase</span>
+    <span class="badge">Random Forest</span>
+  </p>
+  <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo</a></p>
+</div>
+
+### 🧑‍💼 Analisis Attrition Human Resources
+<div class="project">
+  <img src="URL_GAMBAR_3" alt="Human Resources">
+  <h3><a href="https://github.com/Yorrissiagian/Permasalahan-Human-Resources" target="_blank">Attrition Analysis - Jaya Jaya Maju</a></h3>
+  <p>Model Logistic Regression untuk menganalisis penyebab tingginya attrition. Dashboard dibuat menggunakan Metabase.</p>
+  <p>
+    <span class="badge">HR Analytics</span>
+    <span class="badge">Logistic Regression</span>
+    <span class="badge">Metabase</span>
+  </p>
+</div>
+
+### 🖼 Klasifikasi Gambar Daun Tomat
+<div class="project">
+  <img src="URL_GAMBAR_4" alt="Klasifikasi Gambar">
+  <h3><a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" target="_blank">Klasifikasi Penyakit Daun Tomat</a></h3>
+  <p>Menggunakan CNN untuk klasifikasi 10 jenis penyakit daun tomat. Akurasi mencapai 91.2%.</p>
+  <p>
+    <span class="badge">CNN</span>
+    <span class="badge">Klasifikasi Gambar</span>
+    <span class="badge">TensorFlow</span>
+  </p>
+</div>
+
+### 💬 Analisis Sentimen Ulasan
+<div class="project">
+  <img src="URL_GAMBAR_5" alt="Sentimen Analisis">
+  <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen</a></h3>
+  <p>Analisis sentimen menggunakan Naive Bayes dan TF-IDF dari ulasan teks pelanggan.</p>
+  <p>
+    <span class="badge">NLP</span>
+    <span class="badge">Naive Bayes</span>
+    <span class="badge">TF-IDF</span>
+  </p>
+</div>
+
+### 🏗 Membangun Proyek ML Terintegrasi
+<div class="project">
+  <img src="URL_GAMBAR_6" alt="MLOps">
+  <h3><a href="[https://github.com/Yorrissiagian/Membangun-proyek-ML](https://github.com/Yorrissiagian/Membangun-proyek-ML)" target="_blank">Membangun Proyek Machine Learning</a></h3>
+  <p>End-to-end ML pipeline dengan MLflow, CI/CD (GitHub Actions), dan monitoring Prometheus + Grafana.</p>
+  <p>
+    <span class="badge">MLOps</span>
+    <span class="badge">MLflow</span>
+    <span class="badge">Grafana</span>
+    <span class="badge">Prometheus</span>
+  </p>
 </div>
 
 ---
 
-## 📢 Kontak Saya
-- ✉️ Email: yorrissiagian6@email.com  
-- LinkedIn: [linkedin.com/in/yorris-siagian-9a4756243](https://linkedin.com/in/yorris-siagian-9a4756243)  
-- GitHub: [github.com/Yorrissiagian](https://github.com/Yorrissiagian)
+## 📫 Kontak Saya
+- 📧 Email: yorrissiagian6@email.com  
+- 💼 LinkedIn: [linkedin.com/in/yorris-siagian-9a4756243](https://linkedin.com/in/yorris-siagian-9a4756243)  
+- 🐱 GitHub: [github.com/Yorrissiagian](https://github.com/Yorrissiagian)
 
----
-
-> Portofolio ini dibangun dengan GitHub Pages + Jekyll.  
+> Portofolio ini dibuat menggunakan GitHub Pages + Jekyll.  
 > Terakhir diperbarui: {{ "now" | date: "%d %B %Y" }}
