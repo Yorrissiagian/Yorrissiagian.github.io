@@ -49,7 +49,6 @@ section {
 }
 </style>
 
-
 # 👋 Halo! Saya Yorrissiagian
 
 Fresh graduate yang fokus dalam pengembangan sistem AI & Machine Learning end-to-end.  
@@ -64,9 +63,9 @@ Berikut adalah beberapa proyek dan pengalaman yang saya dokumentasikan.
 
 ## 🚀 Proyek Unggulan
 
-### 🌱 Contoh Proyek 1: Deteksi Penyakit Tanaman
+### 🌱 Deteksi Penyakit Tanaman Pertanian
 <div class="project">
-  <h3><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" target="_blank">Deteksi Penyakit Tanaman Pertanian</a></h3>
+  <h3><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" target="_blank">Deteksi Penyakit Tanaman</a></h3>
   <p><strong>Deskripsi:</strong> Proyek Computer Vision untuk mendeteksi penyakit tanaman berbasis MobileNetV1. Dideploy menggunakan Streamlit.</p>
   <p><strong>Peran:</strong> Pemimpin tim, pengujian model, deployment.</p>
   <p>
@@ -77,7 +76,7 @@ Berikut adalah beberapa proyek dan pengalaman yang saya dokumentasikan.
   <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Lihat Demo</a></p>
 </div>
 
-### 🎓 Contoh Proyek 2: Prediksi Dropout Mahasiswa
+### 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
   <h3><a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" target="_blank">Prediksi Dropout Mahasiswa</a></h3>
   <p><strong>Deskripsi:</strong> Menggunakan Random Forest untuk memprediksi risiko dropout. Dilengkapi dashboard Metabase dan aplikasi Streamlit.</p>
@@ -90,7 +89,53 @@ Berikut adalah beberapa proyek dan pengalaman yang saya dokumentasikan.
   <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo</a></p>
 </div>
 
-<!-- Tambahkan proyek lainnya di bawah ini dengan struktur yang sama -->
+### 🧑‍💼 Permasalahan Human Resources
+<div class="project">
+  <h3><a href="https://github.com/Yorrissiagian/Permasalahan-Human-Resources" target="_blank">Permasalahan Human Resources</a></h3>
+  <p><strong>Deskripsi:</strong> Analisis data karyawan untuk mengidentifikasi potensi risiko resign (attrition), performa kerja, dan faktor penting lainnya.</p>
+  <p><strong>Tools:</strong> scikit-learn, pandas, seaborn, matplotlib</p>
+  <p>
+    <span class="badge">Classification</span>
+    <span class="badge">HR Analytics</span>
+    <span class="badge">EDA</span>
+  </p>
+</div>
+
+### 🖼️ Klasifikasi Gambar
+<div class="project">
+  <h3><a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" target="_blank">Klasifikasi Gambar</a></h3>
+  <p><strong>Deskripsi:</strong> Membangun sistem klasifikasi gambar menggunakan CNN dan membandingkan dengan MobileNetV1.</p>
+  <p><strong>Tools:</strong> TensorFlow, CNN, Streamlit</p>
+  <p>
+    <span class="badge">Computer Vision</span>
+    <span class="badge">CNN</span>
+    <span class="badge">Image Classification</span>
+  </p>
+</div>
+
+### 💬 Analisis Sentimen
+<div class="project">
+  <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen</a></h3>
+  <p><strong>Deskripsi:</strong> Menganalisis sentimen dari ulasan pengguna menggunakan model NLP berbasis TF-IDF + Naive Bayes.</p>
+  <p><strong>Tools:</strong> scikit-learn, nltk, pandas</p>
+  <p>
+    <span class="badge">NLP</span>
+    <span class="badge">Text Classification</span>
+    <span class="badge">Sentiment Analysis</span>
+  </p>
+</div>
+
+### 🏗️ Membangun Proyek Machine Learning
+<div class="project">
+  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Membangun Proyek ML</a></h3>
+  <p><strong>Deskripsi:</strong> End-to-end machine learning project dengan eksperimen model via MLflow, deployment, serta monitoring menggunakan Prometheus & Grafana.</p>
+  <p><strong>Tools:</strong> MLflow, GitHub Actions, Streamlit, Prometheus, Docker</p>
+  <p>
+    <span class="badge">ML Engineering</span>
+    <span class="badge">CI/CD</span>
+    <span class="badge">Monitoring</span>
+  </p>
+</div>
 
 ---
 
