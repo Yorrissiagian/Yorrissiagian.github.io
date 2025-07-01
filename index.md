@@ -146,7 +146,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ### 🧠 Klasifikasi Wajah Anak Autis
 <div class="project">
-  <div class="subtitle">SKripsi</div>
+  <div class="subtitle">Skripsi</div>
   <h3><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
   <p>Sistem klasifikasi wajah anak dengan gangguan spektrum autisme (ASD) menggunakan fitur SURF dan lima varian Boosting.</p>
   <ul>
