@@ -142,7 +142,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 ### 🏗️ Membangun Proyek ML Terintegrasi
 <div class="project">
   <img src="URL_GAMBAR_6" alt="MLOps">
-  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Membangun Proyek ML</a></h3>
+  <h3><a href="[https://github.com/Yorrissiagian/Membangun-proyek-ML](https://github.com/Yorrissiagian/Membangun-proyek-ML)" target="_blank">Membangun Proyek Machine Learning</a></h3>
   <p>End-to-end ML pipeline dengan MLflow, CI/CD (GitHub Actions), dan monitoring Prometheus + Grafana.</p>
   <p>
     <span class="badge">MLOps</span>
