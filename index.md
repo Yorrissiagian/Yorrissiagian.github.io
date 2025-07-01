@@ -83,7 +83,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
   <p>Proyek Computer Vision berbasis MobileNetV1 untuk mendeteksi penyakit tanaman. Dideploy dengan Streamlit.</p>
   <p><strong>Peran:</strong> Pemimpin tim, pengujian model, deployment.</p>
   <p>
-    <span class="badge">Computer Vision</span>
+    <span class="badge">Classification</span>
     <span class="badge">Streamlit</span>
     <span class="badge">MobileNetV1</span>
   </p>
