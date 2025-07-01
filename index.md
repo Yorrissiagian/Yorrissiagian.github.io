@@ -12,8 +12,19 @@
     color: #64b5f6;
   }
 
-  section {
-    margin-bottom: 3rem;
+  .profile-photo {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0;
+  }
+
+  .profile-photo img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid #0288d1;
+    box-shadow: 0 0 10px rgba(2,136,209,0.4);
   }
 
   .project {
@@ -65,16 +76,22 @@
 Fresh graduate yang fokus pada pengembangan sistem AI & Machine Learning end-to-end.  
 Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
+<div class="profile-photo">
+  <img src="{{ '/yoris.jpg' | relative_url }}" alt="Foto Profil Yorrissiagian">
+</div>
+
 ---
 
 ## 💼 Tentang Saya
-> Lulusan teknik iformatika dari Universitas Medan Area dengan minat kuat dalam membangun solusi AI yang berdampak.  
+> Lulusan Teknik Informatika dari Universitas Medan Area dengan minat kuat dalam membangun solusi AI yang berdampak.  
 > Fokus: Data preprocessing, modeling, deployment & monitoring model ML.  
 > Tools favorit: Python, scikit-learn, TensorFlow, Streamlit, MLflow, Prometheus, Metabase, Docker.
 
 ---
 
 ## 🚀 Proyek Unggulan
+
+<!-- Semua proyek ditampilkan di bawah -->
 
 ### 🌾 Deteksi Penyakit Tanaman Pertanian
 <div class="project">
@@ -131,15 +148,12 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
-  <p>Proyek ini bertujuan untuk membangun sistem klasifikasi wajah anak dengan gangguan spektrum autisme (ASD) menggunakan fitur SURF dan lima varian Boosting.</p>
-  <p><strong>Metodologi:</strong></p>
+  <p>Sistem klasifikasi wajah anak dengan gangguan spektrum autisme (ASD) menggunakan fitur SURF dan lima varian Boosting.</p>
   <ul>
-    <li>Ekstraksi fitur menggunakan SURF</li>
-    <li>Model boosting: AdaBoost, GradientBoost, LightGBM, CatBoost, XGBoost</li>
-    <li>Evaluasi: Accuracy, Precision, Recall, F1 & F2 Score</li>
+    <li>Ekstraksi fitur: SURF</li>
+    <li>Model: AdaBoost, GradientBoost, LightGBM, CatBoost, XGBoost</li>
+    <li>Hasil terbaik: CatBoost (akurat 80.49%)</li>
   </ul>
-  <p><strong>Dataset:</strong> 203 citra (102 autis, 101 normal) dari Bundaku Autism Clinic Center</p>
-  <p><strong>Hasil:</strong> CatBoost memberikan akurasi tertinggi sebesar <strong>80.49%</strong></p>
   <p>
     <span class="badge">SURF</span>
     <span class="badge">Boosting</span>
@@ -148,7 +162,6 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
   </p>
   <p><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">📄 Lihat Publikasi IEEE</a></p>
 </div>
-
 
 ### 💬 Analisis Sentimen Ulasan
 <div class="project">
