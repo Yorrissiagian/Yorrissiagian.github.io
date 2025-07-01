@@ -68,7 +68,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 ---
 
 ## 💼 Tentang Saya
-> Lulusan teknik dengan minat kuat dalam membangun solusi AI yang berdampak.  
+> Lulusan teknik iformatika dari Universitas Medan Area dengan minat kuat dalam membangun solusi AI yang berdampak.  
 > Fokus: Data preprocessing, modeling, deployment & monitoring model ML.  
 > Tools favorit: Python, scikit-learn, TensorFlow, Streamlit, MLflow, Prometheus, Metabase, Docker.
 
@@ -126,6 +126,29 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
     <span class="badge">TensorFlow</span>
   </p>
 </div>
+
+### 🧠 Klasifikasi Wajah Anak Autis
+<div class="project">
+  <div class="subtitle">Laskar AI x Dicoding</div>
+  <h3><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
+  <p>Proyek ini bertujuan untuk membangun sistem klasifikasi wajah anak dengan gangguan spektrum autisme (ASD) menggunakan fitur SURF dan lima varian Boosting.</p>
+  <p><strong>Metodologi:</strong></p>
+  <ul>
+    <li>Ekstraksi fitur menggunakan SURF</li>
+    <li>Model boosting: AdaBoost, GradientBoost, LightGBM, CatBoost, XGBoost</li>
+    <li>Evaluasi: Accuracy, Precision, Recall, F1 & F2 Score</li>
+  </ul>
+  <p><strong>Dataset:</strong> 203 citra (102 autis, 101 normal) dari Bundaku Autism Clinic Center</p>
+  <p><strong>Hasil:</strong> CatBoost memberikan akurasi tertinggi sebesar <strong>80.49%</strong></p>
+  <p>
+    <span class="badge">SURF</span>
+    <span class="badge">Boosting</span>
+    <span class="badge">Autism Detection</span>
+    <span class="badge">Computer Vision</span>
+  </p>
+  <p><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">📄 Lihat Publikasi IEEE</a></p>
+</div>
+
 
 ### 💬 Analisis Sentimen Ulasan
 <div class="project">
