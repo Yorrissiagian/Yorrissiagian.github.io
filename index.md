@@ -117,9 +117,8 @@ Berikut adalah beberapa proyek dan pengalaman yang saya dokumentasikan.
 ---
 
 ## 📫 Kontak Saya
-- Email: your@email.com  
-- LinkedIn: [linkedin.com/in/yourusername](https://linkedin.com/in/yourusername)  
-- GitHub: [github.com/Yorrissiagian](https://github.com/Yorrissiagian)
+- Email: yorrissiagian6@email.com  
+- LinkedIn: https://www.linkedin.com/in/yorris-siagian-9a4756243/ 
+- GitHub: https://github.com/Yorrissiagian
 
-> Portofolio ini dibuat dengan GitHub Pages dan Jekyll tema *minima*.  
 > Update terakhir: {{ "now" | date: "%d %B %Y" }}
