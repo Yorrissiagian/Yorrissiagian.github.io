@@ -194,6 +194,5 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 - 📧 Email: yorrissiagian6@email.com  
 - 💼 LinkedIn: [linkedin.com/in/yorris-siagian-9a4756243](https://linkedin.com/in/yorris-siagian-9a4756243)  
 - 🐱 GitHub: [github.com/Yorrissiagian](https://github.com/Yorrissiagian)
-
-> Portofolio ini dibuat menggunakan GitHub Pages + Jekyll.  
+ 
 > Terakhir diperbarui: {{ "now" | date: "%d %B %Y" }}
