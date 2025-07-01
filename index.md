@@ -1,6 +1,6 @@
 <style>
   body {
-    background-color: #e0f7fa;
+    background-color: #00000;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: #2c3e50;
     padding: 2rem;
