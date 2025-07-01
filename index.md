@@ -1,15 +1,15 @@
 <style>
   body {
-    background-color: #e0f7fa;
+    background-color: #121212;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    color: #2c3e50;
+    color: #e0e0e0;
     padding: 2rem;
     line-height: 1.6;
   }
 
   h1, h2 {
     text-align: center;
-    color: #01579b;
+    color: #64b5f6;
   }
 
   section {
@@ -17,17 +17,17 @@
   }
 
   .project {
-    border: 1px solid #b3e5fc;
+    border: 1px solid #333;
     border-radius: 12px;
     padding: 1.5rem;
     margin: 1.5rem 0;
-    background: #ffffff;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    background: #1e1e1e;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
   }
 
   .project h3 {
     margin-top: 0;
-    color: #0277bd;
+    color: #90caf9;
   }
 
   .project p {
@@ -36,7 +36,7 @@
 
   .project .subtitle {
     font-weight: bold;
-    color: #00838f;
+    color: #81d4fa;
     margin-bottom: 0.7rem;
   }
 
@@ -51,7 +51,7 @@
   }
 
   a {
-    color: #01579b;
+    color: #4fc3f7;
     text-decoration: none;
   }
 
