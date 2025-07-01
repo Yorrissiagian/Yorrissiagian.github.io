@@ -148,6 +148,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
     <span class="badge">MLOps</span>
     <span class="badge">MLflow</span>
     <span class="badge">Grafana</span>
+    <span class="badge">Prometheus</span>
   </p>
 </div>
 
