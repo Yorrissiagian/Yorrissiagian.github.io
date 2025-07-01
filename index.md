@@ -1,8 +1,3 @@
----
-layout: default
-title: "Portofolio Yorrissiagian"
----
-
 <style>
 body {
   background-color: #e0f7fa;
