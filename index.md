@@ -1,6 +1,6 @@
 <style>
   body {
-    background-color: #00000;
+    background-color: #e0f7fa;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: #2c3e50;
     padding: 2rem;
@@ -34,6 +34,12 @@
     margin-bottom: 0.5rem;
   }
 
+  .project .subtitle {
+    font-weight: bold;
+    color: #00838f;
+    margin-bottom: 0.7rem;
+  }
+
   .badge {
     display: inline-block;
     padding: 0.35em 0.7em;
@@ -51,12 +57,6 @@
 
   a:hover {
     text-decoration: underline;
-  }
-
-  .project img {
-    max-width: 100%;
-    border-radius: 8px;
-    margin-bottom: 1rem;
   }
 </style>
 
@@ -78,7 +78,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ### 🌾 Deteksi Penyakit Tanaman Pertanian
 <div class="project">
-  <img src="URL_GAMBAR_1" alt="Deteksi Penyakit Tanaman">
+  <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" target="_blank">Deteksi Penyakit Tanaman</a></h3>
   <p>Proyek Computer Vision berbasis MobileNetV1 untuk mendeteksi penyakit tanaman. Dideploy dengan Streamlit.</p>
   <p><strong>Peran:</strong> Pemimpin tim, pengujian model, deployment.</p>
@@ -92,7 +92,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ### 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
-  <img src="URL_GAMBAR_2" alt="Prediksi Dropout Mahasiswa">
+  <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" target="_blank">Prediksi Dropout Mahasiswa</a></h3>
   <p>Model Random Forest untuk mendeteksi risiko dropout mahasiswa. Dilengkapi dashboard Metabase & aplikasi Streamlit.</p>
   <p>
@@ -105,7 +105,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ### 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
-  <img src="URL_GAMBAR_3" alt="Human Resources">
+  <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Yorrissiagian/Permasalahan-Human-Resources" target="_blank">Attrition Analysis - Jaya Jaya Maju</a></h3>
   <p>Model Logistic Regression untuk menganalisis penyebab tingginya attrition. Dashboard dibuat menggunakan Metabase.</p>
   <p>
@@ -117,7 +117,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ### 🖼 Klasifikasi Gambar Daun Tomat
 <div class="project">
-  <img src="URL_GAMBAR_4" alt="Klasifikasi Gambar">
+  <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" target="_blank">Klasifikasi Penyakit Daun Tomat</a></h3>
   <p>Menggunakan CNN untuk klasifikasi 10 jenis penyakit daun tomat. Akurasi mencapai 91.2%.</p>
   <p>
@@ -129,7 +129,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ### 💬 Analisis Sentimen Ulasan
 <div class="project">
-  <img src="URL_GAMBAR_5" alt="Sentimen Analisis">
+  <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen</a></h3>
   <p>Analisis sentimen menggunakan Naive Bayes dan TF-IDF dari ulasan teks pelanggan.</p>
   <p>
@@ -141,8 +141,8 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ### 🏗 Membangun Proyek ML Terintegrasi
 <div class="project">
-  <img src="URL_GAMBAR_6" alt="MLOps">
-  <h3><a href="[https://github.com/Yorrissiagian/Membangun-proyek-ML](https://github.com/Yorrissiagian/Membangun-proyek-ML)" target="_blank">Membangun Proyek Machine Learning</a></h3>
+  <div class="subtitle">Laskar AI x Dicoding</div>
+  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Membangun Proyek Machine Learning</a></h3>
   <p>End-to-end ML pipeline dengan MLflow, CI/CD (GitHub Actions), dan monitoring Prometheus + Grafana.</p>
   <p>
     <span class="badge">MLOps</span>
