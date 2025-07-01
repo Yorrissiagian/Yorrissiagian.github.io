@@ -85,28 +85,10 @@ Berikut adalah beberapa proyek dan pengalaman yang saya dokumentasikan.
 </div>
 
 ### 🧑‍💼 Permasalahan Human Resources
-<div class="project">
-  <h3><a href="https://github.com/Yorrissiagian/Permasalahan-Human-Resources" target="_blank">Permasalahan Human Resources</a></h3>
-  <p><strong>Deskripsi:</strong> Analisis data karyawan untuk mengidentifikasi potensi risiko resign (attrition), performa kerja, dan faktor penting lainnya.</p>
-  <p><strong>Tools:</strong> scikit-learn, pandas, seaborn, matplotlib</p>
-  <p>
-    <span class="badge">Classification</span>
-    <span class="badge">HR Analytics</span>
-    <span class="badge">EDA</span>
-  </p>
-</div>
+<div class="project"> <h3><a href="https://github.com/Yorrissiagian/Permasalahan-Human-Resources" target="_blank">Analisis Tinggi-Attrition di Jaya Jaya Maju</a></h3> <p><strong>Deskripsi:</strong> Proyek prediksi dan analisis tingkat attrition di perusahaan Jaya Jaya Maju. Membangun dua model Logistic Regression (default dan balanced) untuk mengidentifikasi faktor risiko resign.</p> <p><strong>Tools:</strong> scikit-learn, pandas, seaborn, Metabase</p> <ul> <li>OverTime dan YearsSinceLastPromotion terbukti memengaruhi attrition.</li> <li>Model balanced class meningkatkan recall hingga 72% untuk mendeteksi karyawan keluar.</li> <li>Dashboard HR interaktif dibangun dengan Metabase.</li> </ul> <p> <span class="badge">Classification</span> <span class="badge">HR Analytics</span> <span class="badge">Logistic Regression</span> </p> </div>
 
 ### 🖼️ Klasifikasi Gambar
-<div class="project">
-  <h3><a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" target="_blank">Klasifikasi Gambar</a></h3>
-  <p><strong>Deskripsi:</strong> Membangun sistem klasifikasi gambar menggunakan CNN dan membandingkan dengan MobileNetV1.</p>
-  <p><strong>Tools:</strong> TensorFlow, CNN, Streamlit</p>
-  <p>
-    <span class="badge">Computer Vision</span>
-    <span class="badge">CNN</span>
-    <span class="badge">Image Classification</span>
-  </p>
-</div>
+<div class="project"> <h3><a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" target="_blank">Klasifikasi Penyakit Daun Tomat</a></h3> <p><strong>Deskripsi:</strong> Menggunakan CNN untuk klasifikasi 10 kelas penyakit pada daun tomat. Dataset diambil dari Kaggle dan dibagi ke dalam train, validation, dan test.</p> <p><strong>Tools:</strong> TensorFlow, Keras, CNN, Image Augmentation</p> <ul> <li>Model CNN: 3 Conv2D layers + Dense, Dropout, Softmax.</li> <li>Image augmentation untuk meningkatkan generalisasi.</li> <li>Akurasi model: <strong>91.20%</strong>, F1-score makro: <strong>0.91</strong></li> </ul> <p> <span class="badge">Computer Vision</span> <span class="badge">Image Classification</span> <span class="badge">CNN</span> </p> </div>
 
 ### 💬 Analisis Sentimen
 <div class="project">
