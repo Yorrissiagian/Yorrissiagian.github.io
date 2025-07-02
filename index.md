@@ -147,7 +147,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 ### 🧠 Klasifikasi Wajah Anak Autis
 <div class="project">
   <div class="subtitle">Skripsi</div>
-  <h3><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
+  <h3><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
   <p>Sistem klasifikasi wajah anak dengan gangguan spektrum autisme (ASD) menggunakan fitur SURF dan lima varian Boosting.</p>
   <ul>
     <li>Ekstraksi fitur: SURF</li>
@@ -160,70 +160,50 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
     <span class="badge">Autism Detection</span>
     <span class="badge">Computer Vision</span>
   </p>
-  <p><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">📄 Lihat Publikasi IEEE</a></p>
+  <p><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">📄 Lihat Publikasi IEEE</a></p>
 </div>
 
-### 💬 Analisis Sentimen Ulasan Gojek
+### 💬 Analisis Sentimen Ulasan
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen Review Gojek</a></h3>
-  <p>Proyek ini bertujuan untuk melakukan scraping data ulasan aplikasi Gojek dari Google Play Store dan mengklasifikasikan sentimen (positif vs negatif).</p>
+  <p>Scraping dan preprocessing ulasan aplikasi Gojek, pelabelan berbasis lexicon, visualisasi WordCloud dan klasifikasi menggunakan MLPClassifier.</p>
   <ul>
-    <li><strong>Web Scraping:</strong> Mengambil data ulasan menggunakan <code>google-play-scraper</code></li>
-    <li><strong>Klasifikasi Sentimen:</strong> Label otomatis dari rating, preprocessing teks, fitur TF-IDF, dan model ML</li>
-    <li><strong>Model:</strong> Logistic Regression, Naive Bayes, SVM</li>
-    <li><strong>Evaluasi:</strong> Confusion Matrix, Accuracy, Precision, Recall, F1-score</li>
+    <li>Preprocessing lengkap: cleaning, slang correction, stemming</li>
+    <li>Labeling menggunakan lexicon_positive.csv & lexicon_negative.csv</li>
+    <li>Model: MLPClassifier (akurasi testing: 92.14%)</li>
   </ul>
-  <p><strong>Output:</strong> <code>gojek_reviews.csv</code> & model klasifikasi terlatih</p>
   <p>
-    <span class="badge">Web Scraping</span>
-    <span class="badge">Text Classification</span>
-    <span class="badge">Naive Bayes</span>
-    <span class="badge">TF-IDF</span>
-    <span class="badge">SVM</span>
+    <span class="badge">NLP</span>
+    <span class="badge">Sentiment Analysis</span>
+    <span class="badge">Lexicon-Based</span>
+    <span class="badge">MLPClassifier</span>
   </p>
 </div>
 
-
-### 🏗 Membangun Machine Learning
+### 🏗 Membangun Proyek ML Terintegrasi
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Belajar Membangun Machine Learning Project</a></h3>
-  <p>Proyek ini mencakup dua komponen utama: klasifikasi untuk prediksi dropout mahasiswa, dan clustering untuk segmentasi pelanggan.</p>
-
-  <p><strong>🧠 Klasifikasi: Prediksi Dropout Mahasiswa</strong></p>
+  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Membangun Proyek Machine Learning</a></h3>
+  <p>Proyek end-to-end yang mencakup segmentasi (KMeans) dan klasifikasi pengeluaran masyarakat Indonesia, dengan evaluasi, tuning model, visualisasi dan monitoring.</p>
   <ul>
-    <li>EDA dan korelasi fitur dropout</li>
-    <li>Preprocessing: encoding, normalisasi, imputasi</li>
-    <li>Model: <code>RandomForestClassifier</code>, pipeline disimpan sebagai .pkl</li>
-    <li>Evaluasi: accuracy, precision, recall, F1, confusion matrix</li>
-    <li><strong>Output:</strong> <code>final_model_pipeline.pkl</code>, <code>label_encoder.pkl</code></li>
+    <li>Clustering: PowerTransformer + KMeans (3 klaster)</li>
+    <li>Klasifikasi: Logistic Regression & KNN + GridSearchCV & RandomizedSearchCV</li>
+    <li>Evaluasi: akurasi >99%, disertai confusion matrix & learning curve</li>
   </ul>
-
-  <p><strong>📈 Clustering: Segmentasi Pelanggan</strong></p>
-  <ul>
-    <li>Analisis RFM (Recency, Frequency, Monetary)</li>
-    <li>Preprocessing: PowerTransformer</li>
-    <li>Clustering: KMeans, Elbow Method, Silhouette Score</li>
-    <li>Output: Visualisasi scatter plot, pairplot, penamaan segmen</li>
-  </ul>
-
   <p>
-    <span class="badge">Classification</span>
+    <span class="badge">MLOps</span>
     <span class="badge">Clustering</span>
-    <span class="badge">Random Forest</span>
-    <span class="badge">KMeans</span>
-    <span class="badge">MLflow</span>
-    <span class="badge">CI/CD</span>
+    <span class="badge">Classification</span>
+    <span class="badge">Tuning</span>
   </p>
 </div>
-
 
 ---
 
-## 📫 Kontak Saya
+## 📣 Kontak Saya
 - 📧 Email: yorrissiagian6@email.com  
 - 💼 LinkedIn: [linkedin.com/in/yorris-siagian-9a4756243](https://linkedin.com/in/yorris-siagian-9a4756243)  
-- 🐱 GitHub: [github.com/Yorrissiagian](https://github.com/Yorrissiagian)
+- 👥 GitHub: [github.com/Yorrissiagian](https://github.com/Yorrissiagian)
  
 > Terakhir diperbarui: {{ "now" | date: "%d %B %Y" }}
