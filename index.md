@@ -167,10 +167,11 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen Review Gojek</a></h3>
-  <p>Scraping dan preprocessing ulasan aplikasi Gojek, pelabelan berbasis lexicon, visualisasi WordCloud dan klasifikasi menggunakan MLPClassifier.</p>
+  <p>Submission kelas Belajar Fundamental Deep Learning yang berfokus pada scraping, preprocessing, pelabelan sentimen berbasis lexicon, visualisasi, serta klasifikasi menggunakan MLP terhadap review aplikasi Gojek dari Google Play Store.</p>
   <ul>
-    <li>Preprocessing lengkap: cleaning, slang correction, stemming</li>
-    <li>Labeling menggunakan lexicon_positive.csv & lexicon_negative.csv</li>
+    <li>Scraping: 10.000 review menggunakan google-play-scraper</li>
+    <li>Preprocessing lengkap: cleaning, slang correction, tokenization, stopword removal, stemming</li>
+    <li>Labeling sentimen: lexicon_positive & lexicon_negative (threshold >=0: positif)</li>
     <li>Model: MLPClassifier (akurasi testing: 92.14%)</li>
   </ul>
   <p>
@@ -185,11 +186,12 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Membangun Proyek Machine Learning</a></h3>
-  <p>Proyek end-to-end yang mencakup segmentasi (KMeans) dan klasifikasi pengeluaran masyarakat Indonesia, dengan evaluasi, tuning model, visualisasi dan monitoring.</p>
+  <p>Submission akhir kelas "Membangun Proyek Machine Learning" yang terdiri dari dua bagian: Clustering pengeluaran masyarakat & Klasifikasi berdasarkan hasil klaster.</p>
   <ul>
-    <li>Clustering: PowerTransformer + KMeans (3 klaster)</li>
-    <li>Klasifikasi: Logistic Regression & KNN + GridSearchCV & RandomizedSearchCV</li>
-    <li>Evaluasi: akurasi >99%, disertai confusion matrix & learning curve</li>
+    <li>Clustering: KMeans (3 klaster), PowerTransformer, analisis RFM</li>
+    <li>Klasifikasi: Logistic Regression & KNN, evaluasi F1 > 99%</li>
+    <li>Model tuning: GridSearchCV & RandomizedSearchCV</li>
+    <li>Visualisasi: learning curve, confusion matrix, distribusi fitur</li>
   </ul>
   <p>
     <span class="badge">MLOps</span>
