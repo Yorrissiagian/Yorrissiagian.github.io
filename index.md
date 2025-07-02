@@ -163,30 +163,61 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
   <p><a href="https://ieeexplore.ieee.org/document/XXXXX" target="_blank">📄 Lihat Publikasi IEEE</a></p>
 </div>
 
-### 💬 Analisis Sentimen Ulasan
+### 💬 Analisis Sentimen Ulasan Gojek
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen</a></h3>
-  <p>Analisis sentimen menggunakan Naive Bayes dan TF-IDF dari ulasan teks pelanggan.</p>
+  <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen Review Gojek</a></h3>
+  <p>Proyek ini bertujuan untuk melakukan scraping data ulasan aplikasi Gojek dari Google Play Store dan mengklasifikasikan sentimen (positif vs negatif).</p>
+  <ul>
+    <li><strong>Web Scraping:</strong> Mengambil data ulasan menggunakan <code>google-play-scraper</code></li>
+    <li><strong>Klasifikasi Sentimen:</strong> Label otomatis dari rating, preprocessing teks, fitur TF-IDF, dan model ML</li>
+    <li><strong>Model:</strong> Logistic Regression, Naive Bayes, SVM</li>
+    <li><strong>Evaluasi:</strong> Confusion Matrix, Accuracy, Precision, Recall, F1-score</li>
+  </ul>
+  <p><strong>Output:</strong> <code>gojek_reviews.csv</code> & model klasifikasi terlatih</p>
   <p>
-    <span class="badge">NLP</span>
+    <span class="badge">Web Scraping</span>
+    <span class="badge">Text Classification</span>
     <span class="badge">Naive Bayes</span>
     <span class="badge">TF-IDF</span>
+    <span class="badge">SVM</span>
   </p>
 </div>
 
-### 🏗 Membangun Proyek ML Terintegrasi
+
+### 🏗 Membangun Machine Learning
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Membangun Proyek Machine Learning</a></h3>
-  <p>End-to-end ML pipeline dengan MLflow, CI/CD (GitHub Actions), dan monitoring Prometheus + Grafana.</p>
+  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Belajar Membangun Machine Learning Project</a></h3>
+  <p>Proyek ini mencakup dua komponen utama: klasifikasi untuk prediksi dropout mahasiswa, dan clustering untuk segmentasi pelanggan.</p>
+
+  <p><strong>🧠 Klasifikasi: Prediksi Dropout Mahasiswa</strong></p>
+  <ul>
+    <li>EDA dan korelasi fitur dropout</li>
+    <li>Preprocessing: encoding, normalisasi, imputasi</li>
+    <li>Model: <code>RandomForestClassifier</code>, pipeline disimpan sebagai .pkl</li>
+    <li>Evaluasi: accuracy, precision, recall, F1, confusion matrix</li>
+    <li><strong>Output:</strong> <code>final_model_pipeline.pkl</code>, <code>label_encoder.pkl</code></li>
+  </ul>
+
+  <p><strong>📈 Clustering: Segmentasi Pelanggan</strong></p>
+  <ul>
+    <li>Analisis RFM (Recency, Frequency, Monetary)</li>
+    <li>Preprocessing: PowerTransformer</li>
+    <li>Clustering: KMeans, Elbow Method, Silhouette Score</li>
+    <li>Output: Visualisasi scatter plot, pairplot, penamaan segmen</li>
+  </ul>
+
   <p>
-    <span class="badge">MLOps</span>
+    <span class="badge">Classification</span>
+    <span class="badge">Clustering</span>
+    <span class="badge">Random Forest</span>
+    <span class="badge">KMeans</span>
     <span class="badge">MLflow</span>
-    <span class="badge">Grafana</span>
-    <span class="badge">Prometheus</span>
+    <span class="badge">CI/CD</span>
   </p>
 </div>
+
 
 ---
 
