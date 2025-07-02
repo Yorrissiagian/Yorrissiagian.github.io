@@ -89,7 +89,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
 ---
 
-## 🚀 Proyek Unggulan
+## 🚀 Proyek Saya
 
 <!-- Semua proyek ditampilkan di bawah -->
 
