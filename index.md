@@ -223,13 +223,48 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
     </p>
   </div>
 
-  <!-- 🔶 Klasifikasi (placeholder) -->
-  <h4>🔶 Klasifikasi: (dalam tahap pengujian)</h4>
+  <!-- 🔶 Klasifikasi -->
+  <h4>🔶 Klasifikasi: Prediksi Segmentasi Masyarakat</h4>
   <ul>
     <li>Model: Logistic Regression & KNN</li>
-    <li>Hyperparameter tuning dengan GridSearchCV dan RandomizedSearchCV</li>
-    <li>Visualisasi evaluasi model akan ditambahkan setelah pengujian</li>
+    <li>Evaluasi akurasi dan F1-score mencapai >99%</li>
+    <li>Hyperparameter tuning: GridSearchCV & RandomizedSearchCV</li>
+    <li>Visualisasi: Confusion matrix dan learning curve untuk analisis performa</li>
   </ul>
+
+  <div class="grid-2">
+    <div class="image-block">
+      <img src="Asset/Confusion Matrix Logistic Regression.png" alt="Confusion Matrix Logistic Regression"
+        style="width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+      <p class="caption">
+        <strong>Confusion Matrix (Logistic Regression):</strong> Model berhasil mengklasifikasikan setiap kelas dengan sangat akurat, hampir tanpa kesalahan.
+      </p>
+    </div>
+    <div class="image-block">
+      <img src="Asset/Confusion Matrix KNN.png" alt="Confusion Matrix KNN"
+        style="width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+      <p class="caption">
+        <strong>Confusion Matrix (KNN):</strong> Performa tinggi secara umum, meski sedikit lebih rendah pada kelas minoritas dibanding Logistic Regression.
+      </p>
+    </div>
+  </div>
+
+  <div class="grid-2">
+    <div class="image-block">
+      <img src="Asset/Learning Curve Logistic Regression.png" alt="Learning Curve Logistic"
+        style="width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+      <p class="caption">
+        <strong>Learning Curve (Logistic Regression):</strong> Kurva training dan validation yang mendekat menunjukkan model general dan tidak overfit.
+      </p>
+    </div>
+    <div class="image-block">
+      <img src="Asset/Learning Curve KNN.png" alt="Learning Curve KNN"
+        style="width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.15);">
+      <p class="caption">
+        <strong>Learning Curve (KNN):</strong> Kinerja stabil dengan sedikit variasi, menunjukkan model cukup fleksibel terhadap perubahan data.
+      </p>
+    </div>
+  </div>
 
   <p>
     <span class="badge">MLOps</span>
@@ -238,6 +273,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
     <span class="badge">Tuning</span>
   </p>
 </div>
+
 
 
 ---
