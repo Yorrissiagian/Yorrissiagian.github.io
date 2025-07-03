@@ -3,8 +3,15 @@
     background-color: #121212;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
     color: #e0e0e0;
-    padding: 2rem;
+    margin: 0;
+    padding: 1rem;
     line-height: 1.6;
+  }
+
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 2rem;
   }
 
   h1, h2 {
@@ -61,6 +68,23 @@
     border-radius: 10px;
   }
 
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
+  }
+
+  .image-block {
+    text-align: center;
+  }
+
+  .caption {
+    font-size: 0.9rem;
+    color: #b0bec5;
+    margin-top: 0.5rem;
+  }
+
   a {
     color: #4fc3f7;
     text-decoration: none;
@@ -69,7 +93,14 @@
   a:hover {
     text-decoration: underline;
   }
+
+  @media (max-width: 768px) {
+    .grid-2 {
+      grid-template-columns: 1fr;
+    }
+  }
 </style>
+
 
 # 👋 Halo! Saya Yorrissiagian
 
