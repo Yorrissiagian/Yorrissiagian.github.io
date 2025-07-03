@@ -182,17 +182,55 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
   </p>
 </div>
 
-### 🏗 Membangun Proyek ML Terintegrasi
+<!-- 🏗 Membangun Proyek ML Terintegrasi -->
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">Membangun Proyek Machine Learning</a></h3>
-  <p>Submission akhir kelas "Membangun Proyek Machine Learning" yang terdiri dari dua bagian: Clustering pengeluaran masyarakat & Klasifikasi berdasarkan hasil klaster.</p>
+  <h3>
+    <a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">
+      Membangun Proyek Machine Learning
+    </a>
+  </h3>
+  <p>
+    Submission akhir kelas <strong>"Membangun Proyek Machine Learning"</strong> yang terdiri dari dua bagian: 
+    Clustering pengeluaran masyarakat & Klasifikasi berdasarkan hasil klaster.
+  </p>
+
+  <!-- 🔷 Clustering -->
+  <h4>🔷 Clustering: Segmentasi Masyarakat Berdasarkan Pengeluaran</h4>
   <ul>
-    <li>Clustering: KMeans (3 klaster), PowerTransformer, analisis RFM</li>
-    <li>Klasifikasi: Logistic Regression & KNN, evaluasi F1 > 99%</li>
-    <li>Model tuning: GridSearchCV & RandomizedSearchCV</li>
-    <li>Visualisasi: learning curve, confusion matrix, distribusi fitur</li>
+    <li>Algoritma: KMeans (3 klaster) dengan PowerTransformer</li>
+    <li>Evaluasi jumlah cluster menggunakan Inertia & Silhouette Score</li>
+    <li>Analisis distribusi pengeluaran untuk mengidentifikasi skewness & outlier</li>
+    <li>Segmentasi masyarakat berdasarkan pola pengeluaran tahunan</li>
   </ul>
+
+  <div class="image-block">
+    <img src="Asset/Distribusi Pengeluaran.png" alt="Distribusi Pengeluaran"
+      style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      <strong>Distribusi Pengeluaran:</strong> Histogram ini menunjukkan bahwa sebagian besar masyarakat memiliki 
+      pengeluaran rendah, dengan kehadiran outlier yang signifikan. Visual ini mendasari keputusan untuk melakukan 
+      transformasi data sebelum clustering.
+    </p>
+  </div>
+
+  <div class="image-block">
+    <img src="Asset/Evaluasi Jumlah Cluster (Inertia & Silhouette Score).png" alt="Evaluasi Jumlah Cluster"
+      style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      <strong>Evaluasi Jumlah Cluster:</strong> Metode Elbow dan Silhouette Score digunakan untuk menentukan jumlah klaster optimal. 
+      Hasil menunjukkan bahwa 3 klaster memberikan pemisahan terbaik antar segmen masyarakat.
+    </p>
+  </div>
+
+  <!-- 🔶 Klasifikasi (placeholder) -->
+  <h4>🔶 Klasifikasi: (dalam tahap pengujian)</h4>
+  <ul>
+    <li>Model: Logistic Regression & KNN</li>
+    <li>Hyperparameter tuning dengan GridSearchCV dan RandomizedSearchCV</li>
+    <li>Visualisasi evaluasi model akan ditambahkan setelah pengujian</li>
+  </ul>
+
   <p>
     <span class="badge">MLOps</span>
     <span class="badge">Clustering</span>
@@ -200,6 +238,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
     <span class="badge">Tuning</span>
   </p>
 </div>
+
 
 ---
 
