@@ -297,6 +297,30 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
     </div>
   </div>
 
+  <!-- 📌 Hasil & Kesimpulan -->
+  <h4>📌 Hasil & Kesimpulan</h4>
+  <div class="conclusion" style="line-height: 1.7; font-size: 1rem; color: #333;">
+    <p>
+      Proyek ini berhasil melakukan segmentasi terhadap masyarakat Indonesia berdasarkan pola pengeluaran tahunan menggunakan algoritma 
+      <strong>KMeans clustering</strong>. Analisis dan visualisasi evaluasi menunjukkan bahwa 
+      <strong>3 klaster</strong> merupakan jumlah optimal, masing-masing dengan karakteristik pengeluaran yang berbeda-beda. 
+      Preprocessing menggunakan <strong>PowerTransformer</strong> berhasil menormalkan distribusi data yang awalnya sangat skewed.
+    </p>
+    <p>
+      Hasil klaster kemudian digunakan sebagai label target dalam proses klasifikasi. 
+      Dua model utama, yaitu <strong>Logistic Regression</strong> dan <strong>K-Nearest Neighbors (KNN)</strong>, 
+      berhasil dibangun dengan hasil yang sangat baik. Evaluasi model menunjukkan 
+      <strong>F1-score di atas 99%</strong>, serta confusion matrix yang mendekati sempurna untuk seluruh kelas.
+    </p>
+    <p>
+      Selain itu, <strong>learning curve</strong> dari kedua model menunjukkan performa yang stabil 
+      dan tidak terjadi overfitting maupun underfitting yang signifikan. Hal ini menandakan bahwa 
+      pipeline machine learning yang dibangun—dari tahap eksplorasi, preprocessing, segmentasi, hingga klasifikasi—
+      telah berjalan efektif dan menghasilkan sistem prediksi yang <strong>akurat, stabil, dan dapat direproduksi</strong>.
+    </p>
+  </div>
+
+  <!-- Badges -->
   <p>
     <span class="badge">MLOps</span>
     <span class="badge">Clustering</span>
