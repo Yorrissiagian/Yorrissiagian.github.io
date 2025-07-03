@@ -214,13 +214,13 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 </div>
 
 <!-- 🏗 Membangun Proyek ML Terintegrasi -->
-<div class="project">
-  <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3>
-    <a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" target="_blank">
-      Membangun Proyek Machine Learning
-    </a>
-  </h3>
+<h3>Membangun Proyek Machine Learning</h3>
+<p>
+  <a href="https://github.com/Yorrissiagian/Membangun-proyek-ML" 
+     class="button" target="_blank">
+    🔗 Lihat Proyek Lengkap di GitHub
+  </a>
+</p>
   <p>
     Submission akhir kelas <strong>"Membangun Proyek Machine Learning"</strong> yang terdiri dari dua bagian: 
     Clustering pengeluaran masyarakat & Klasifikasi berdasarkan hasil klaster.
