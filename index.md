@@ -299,7 +299,7 @@ Berikut adalah kumpulan proyek yang pernah saya kerjakan.
 
   <!-- 📌 Hasil & Kesimpulan -->
   <h4>📌 Hasil & Kesimpulan</h4>
-  <div class="conclusion" style="line-height: 1.7; font-size: 1rem; color: #333;">
+  <div class="conclusion" style="line-height: 1.7; font-size: 1rem; rgba(0,0,0,0.15);">
     <p>
       Proyek ini berhasil melakukan segmentasi terhadap masyarakat Indonesia berdasarkan pola pengeluaran tahunan menggunakan algoritma 
       <strong>KMeans clustering</strong>. Analisis dan visualisasi evaluasi menunjukkan bahwa 
