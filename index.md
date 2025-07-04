@@ -190,6 +190,10 @@
   <div class="subtitle">Skripsi</div>
   <h3><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
   <p>
+    <a href="https://github.com/Yorrissiagian/Klasifikasi-Wajah-Anak-Autis" class="button" target="_blank">
+      🔗 Lihat Proyek Lengkap di GitHub
+    </a>
+  <p>
     Proyek skripsi yang bertujuan mengembangkan sistem klasifikasi untuk membedakan wajah anak dengan gangguan spektrum autisme (ASD) dan wajah anak normal. 
     Sistem ini memanfaatkan teknik ekstraksi fitur <strong>SURF (Speeded-Up Robust Features)</strong> dan lima varian algoritma <strong>Boosting</strong>.
   </p>
