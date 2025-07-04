@@ -185,16 +185,99 @@
   </p>
 </div>
 
-### 🧠 Klasifikasi Wajah Anak Autis
+<!-- 🧠 Klasifikasi Wajah Anak Autis -->
 <div class="project">
   <div class="subtitle">Skripsi</div>
   <h3><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
-  <p>Sistem klasifikasi wajah anak dengan gangguan spektrum autisme (ASD) menggunakan fitur SURF dan lima varian Boosting.</p>
+  <p>
+    Proyek skripsi yang bertujuan mengembangkan sistem klasifikasi untuk membedakan wajah anak dengan gangguan spektrum autisme (ASD) dan wajah anak normal. 
+    Sistem ini memanfaatkan teknik ekstraksi fitur <strong>SURF (Speeded-Up Robust Features)</strong> dan lima varian algoritma <strong>Boosting</strong>.
+  </p>
+
+  <h4>🎯 Tujuan</h4>
   <ul>
-    <li>Ekstraksi fitur: SURF</li>
-    <li>Model: AdaBoost, GradientBoost, LightGBM, CatBoost, XGBoost</li>
-    <li>Hasil terbaik: CatBoost (akurat 80.49%)</li>
+    <li>Mengklasifikasikan wajah anak autis dan normal secara otomatis berbasis citra.</li>
+    <li>Mengevaluasi performa lima algoritma Boosting terhadap fitur citra hasil ekstraksi SURF.</li>
   </ul>
+
+  <h4>📁 Dataset</h4>
+  <ul>
+    <li>Jumlah gambar: 203 (102 autis, 101 normal)</li>
+    <li>Format: .jpg | Sumber: Bundaku Autism Clinic Center</li>
+    <li>Rasio split: 80% pelatihan, 20% pengujian</li>
+  </ul>
+
+  <h4>⚙️ Metodologi</h4>
+  <ul>
+    <li>Preprocessing: konversi gambar ke grayscale</li>
+    <li>Ekstraksi fitur wajah menggunakan <strong>SURF</strong></li>
+    <li>Pelatihan lima model Boosting: AdaBoost, GradientBoost, LightGBM, CatBoost, dan XGBoost</li>
+    <li>Evaluasi menggunakan metrik: Accuracy, Precision, Recall, F1-Score, dan F2-Score</li>
+  </ul>
+
+  <h4>📊 Hasil Evaluasi</h4>
+  <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
+    <thead style="background: #333;">
+      <tr>
+        <th style="padding: 8px; border: 1px solid #555;">Algoritma</th>
+        <th style="padding: 8px; border: 1px solid #555;">Akurasi</th>
+        <th style="padding: 8px; border: 1px solid #555;">Precision</th>
+        <th style="padding: 8px; border: 1px solid #555;">Recall</th>
+        <th style="padding: 8px; border: 1px solid #555;">F1-Score</th>
+        <th style="padding: 8px; border: 1px solid #555;">F2-Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #555;">AdaBoost</td>
+        <td style="padding: 8px; border: 1px solid #555;">68.29%</td>
+        <td style="padding: 8px; border: 1px solid #555;">69.49%</td>
+        <td style="padding: 8px; border: 1px solid #555;">69.02%</td>
+        <td style="padding: 8px; border: 1px solid #555;">68.22%</td>
+        <td style="padding: 8px; border: 1px solid #555;">68.45%</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #555;">Gradient Boosting</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.17%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.57%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.57%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.17%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.31%</td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #555;">LightGBM</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.17%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.10%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.21%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.11%</td>
+        <td style="padding: 8px; border: 1px solid #555;">73.16%</td>
+      </tr>
+      <tr style="background-color: #263238;">
+        <td style="padding: 8px; border: 1px solid #555;"><strong>CatBoost</strong></td>
+        <td style="padding: 8px; border: 1px solid #555;"><strong>80.49%</strong></td>
+        <td style="padding: 8px; border: 1px solid #555;"><strong>80.60%</strong></td>
+        <td style="padding: 8px; border: 1px solid #555;"><strong>80.74%</strong></td>
+        <td style="padding: 8px; border: 1px solid #555;"><strong>80.74%</strong></td>
+        <td style="padding: 8px; border: 1px solid #555;"><strong>80.59%</strong></td>
+      </tr>
+      <tr>
+        <td style="padding: 8px; border: 1px solid #555;">XGBoost</td>
+        <td style="padding: 8px; border: 1px solid #555;">70.73%</td>
+        <td style="padding: 8px; border: 1px solid #555;">70.84%</td>
+        <td style="padding: 8px; border: 1px solid #555;">70.93%</td>
+        <td style="padding: 8px; border: 1px solid #555;">70.72%</td>
+        <td style="padding: 8px; border: 1px solid #555;">70.80%</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h4>📌 Kesimpulan</h4>
+  <p>
+    Proyek ini menunjukkan bahwa kombinasi metode <strong>SURF + Boosting</strong> mampu membedakan wajah anak autis dan wajah normal secara efektif. 
+    Algoritma <strong>CatBoost</strong> menjadi yang paling akurat dengan nilai F1-score dan F2-score di atas 80%.
+    Studi ini membuka peluang untuk pengembangan sistem diagnosis awal berbasis pengenalan wajah anak.
+  </p>
+
   <p>
     <span class="badge">SURF</span>
     <span class="badge">Boosting</span>
@@ -203,6 +286,7 @@
   </p>
   <p><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">📄 Lihat Publikasi IEEE</a></p>
 </div>
+
 
 <!-- 📱 Analisis Sentimen Review Gojek -->
 <div class="project">
