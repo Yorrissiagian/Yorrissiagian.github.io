@@ -188,7 +188,7 @@
 <!-- 🧠 Klasifikasi Wajah Anak Autis -->
 <div class="project">
   <div class="subtitle">Skripsi</div>
-  <h3>Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</a></h3>
+  <h3>Klasifikasi Wajah Anak Autis Menggunakan SURF dan Boosting</h3>
   <p>
     <a href="https://github.com/Yorrissiagian/Klasifikasi-Wajah-Anak-Autis" class="button" target="_blank">
       🔗 Lihat Proyek Lengkap di GitHub
