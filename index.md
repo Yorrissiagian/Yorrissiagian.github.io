@@ -193,6 +193,7 @@
     <a href="https://github.com/Yorrissiagian/Klasifikasi-Wajah-Anak-Autis" class="button" target="_blank">
       🔗 Lihat Proyek Lengkap di GitHub
     </a>
+  </p>
   <p>
     Proyek skripsi yang bertujuan mengembangkan sistem klasifikasi untuk membedakan wajah anak dengan gangguan spektrum autisme (ASD) dan wajah anak normal. 
     Sistem ini memanfaatkan teknik ekstraksi fitur <strong>SURF (Speeded-Up Robust Features)</strong> dan lima varian algoritma <strong>Boosting</strong>.
