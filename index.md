@@ -290,7 +290,7 @@
     <span class="badge">Machine Learning</span>
   </p>
   <p><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">📄 Lihat Publikasi IEEE</a></p>
-
+</div>
 
 <!-- 📱 Analisis Sentimen Review Gojek -->
 <div class="project">
