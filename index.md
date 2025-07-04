@@ -252,7 +252,7 @@
         <td style="padding: 8px; border: 1px solid #555;">73.11%</td>
         <td style="padding: 8px; border: 1px solid #555;">73.16%</td>
       </tr>
-      <tr style="background-color: #263238;">
+      <tr style="background-color: #cfd8dc;">
         <td style="padding: 8px; border: 1px solid #555;"><strong>CatBoost</strong></td>
         <td style="padding: 8px; border: 1px solid #555;"><strong>80.49%</strong></td>
         <td style="padding: 8px; border: 1px solid #555;"><strong>80.60%</strong></td>
