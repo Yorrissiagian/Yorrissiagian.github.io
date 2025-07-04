@@ -219,7 +219,7 @@
   <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
     <thead style="background: #333;">
       <tr style="background-color: #263238;">
-        <th style="padding: 8px; border: 1px solid #555;">Algoritma</th>
+        <th style="background-color: #263238 padding: 8px; border: 1px solid #555;">Algoritma</th>
         <th style="padding: 8px; border: 1px solid #555;">Akurasi</th>
         <th style="padding: 8px; border: 1px solid #555;">Precision</th>
         <th style="padding: 8px; border: 1px solid #555;">Recall</th>
