@@ -282,7 +282,7 @@
     <span class="badge">SURF</span>
     <span class="badge">Boosting</span>
     <span class="badge">Autism Detection</span>
-    <span class="badge">Computer Vision</span>
+    <span class="badge">Machine Learning</span>
   </p>
   <p><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">📄 Lihat Publikasi IEEE</a></p>
 </div>
