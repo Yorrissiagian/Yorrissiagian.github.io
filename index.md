@@ -217,16 +217,16 @@
 
   <h4>📊 Hasil Evaluasi</h4>
   <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
-  <thead style="background: #263238;">
-      <tr>
-        <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Algoritma</th>
-        <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Akurasi</th>
-        <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Precision</th>
-        <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Recall</th>
-        <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">F1-Score</th>
-        <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">F2-Score</th>
-      </tr>
-  </thead>
+  <thead style="background-color: #263238;">
+  <tr>
+    <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Algoritma</th>
+    <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Akurasi</th>
+    <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Precision</th>
+    <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">Recall</th>
+    <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">F1-Score</th>
+    <th style="padding: 8px; border: 1px solid #555; color: #ffffff; font-weight: bold;">F2-Score</th>
+  </tr>
+</thead>
     <tbody>
       <tr>
         <td style="padding: 8px; border: 1px solid #555;">AdaBoost</td>
