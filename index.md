@@ -219,7 +219,7 @@
   </p>
 
   <ul>
-    <li>Scraping 10.000 review aplikasi <code>com.gojek.app</code> menggunakan <strong>google-play-scraper</strong></li>
+    <li>Scraping 10.000 review aplikasi com.gojek.app menggunakan <strong>google-play-scraper</strong></li>
     <li>Preprocessing teks: slang correction, tokenization, stopword removal, stemming</li>
     <li>Labeling sentimen berbasis <strong>lexicon-positive</strong> dan <strong>lexicon-negative</strong></li>
     <li>Model klasifikasi: <strong>MLPClassifier</strong> dengan akurasi testing 92.14%</li>
