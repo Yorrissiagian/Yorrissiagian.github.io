@@ -218,7 +218,7 @@
   <h4>📊 Hasil Evaluasi</h4>
   <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
     <thead>
-      <tr>
+      <tr style="background-color: #263238;">
         <th style="padding: 8px; border: 1px solid #555;">Algoritma</th>
         <th style="padding: 8px; border: 1px solid #555;">Akurasi</th>
         <th style="padding: 8px; border: 1px solid #555;">Precision</th>
@@ -236,7 +236,7 @@
         <td style="padding: 8px; border: 1px solid #555;">68.22%</td>
         <td style="padding: 8px; border: 1px solid #555;">68.45%</td>
       </tr>
-      <tr>
+      <tr style="background-color: #263238;">
         <td style="padding: 8px; border: 1px solid #555;">Gradient Boosting</td>
         <td style="padding: 8px; border: 1px solid #555;">73.17%</td>
         <td style="padding: 8px; border: 1px solid #555;">73.57%</td>
@@ -252,7 +252,7 @@
         <td style="padding: 8px; border: 1px solid #555;">73.11%</td>
         <td style="padding: 8px; border: 1px solid #555;">73.16%</td>
       </tr>
-      <tr>
+      <tr style="background-color: #263238;">
         <td style="padding: 8px; border: 1px solid #555;"><strong>CatBoost</strong></td>
         <td style="padding: 8px; border: 1px solid #555;"><strong>80.49%</strong></td>
         <td style="padding: 8px; border: 1px solid #555;"><strong>80.60%</strong></td>
