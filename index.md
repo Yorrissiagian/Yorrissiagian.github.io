@@ -137,7 +137,12 @@
 ### 🌾 Deteksi Penyakit Tanaman Pertanian
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" target="_blank">Deteksi Penyakit Tanaman</a></h3>
+  <h3>Deteksi Penyakit Tanaman</h3>
+  <p>
+    <a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" class="button" target="_blank">
+      🔗 Lihat Proyek Lengkap di GitHub
+    </a>
+  </p>
   <p>Proyek Computer Vision berbasis MobileNetV1 untuk mendeteksi penyakit tanaman. Dideploy dengan Streamlit.</p>
   <p><strong>Peran:</strong> Pemimpin tim, pengujian model, deployment.</p>
   <p>
@@ -151,7 +156,12 @@
 ### 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" target="_blank">Prediksi Dropout Mahasiswa</a></h3>
+  <h3>Prediksi Dropout Mahasiswa</h3>
+  <p>
+    <a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" class="button" target="_blank">
+      🔗 Lihat Proyek Lengkap di GitHub
+    </a>
+  </p>
   <p>Model Random Forest untuk mendeteksi risiko dropout mahasiswa. Dilengkapi dashboard Metabase & aplikasi Streamlit.</p>
   <p>
     <span class="badge">Classification</span>
@@ -164,7 +174,12 @@
 ### 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Permasalahan-Human-Resources" target="_blank">Attrition Analysis - Jaya Jaya Maju</a></h3>
+  <h3>Attrition Analysis - Jaya Jaya Maju</h3>
+  <p>
+    <a href="https://github.com/Yorrissiagian/Permasalahan-Human-Resources" class="button" target="_blank">
+      🔗 Lihat Proyek Lengkap di GitHub
+    </a>
+  </p>
   <p>Model Logistic Regression untuk menganalisis penyebab tingginya attrition. Dashboard dibuat menggunakan Metabase.</p>
   <p>
     <span class="badge">HR Analytics</span>
@@ -176,7 +191,12 @@
 ### 🖼 Klasifikasi Gambar Daun Tomat
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" target="_blank">Klasifikasi Penyakit Daun Tomat</a></h3>
+  <h3>Klasifikasi Penyakit Daun Tomat</h3>
+   <p>
+    <a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" class="button" target="_blank">
+      🔗 Lihat Proyek Lengkap di GitHub
+    </a>
+  </p>
   <p>Menggunakan CNN untuk klasifikasi 10 jenis penyakit daun tomat. Akurasi mencapai 91.2%.</p>
   <p>
     <span class="badge">CNN</span>
