@@ -208,6 +208,11 @@
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Analisis Sentimen</h3>
+    <p>
+    <a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" class="button" target="_blank">
+      🔗 Lihat Proyek Lengkap di GitHub
+    </a>
+  </p>
   <p>
     Submission proyek kelas <strong>"Belajar Fundamental Deep Learning"</strong> yang berfokus pada analisis sentimen terhadap review aplikasi Gojek dari Google Play Store. 
     Proyek ini mencakup scraping, preprocessing teks, labeling sentimen berbasis lexicon, visualisasi, dan klasifikasi menggunakan <strong>MLPClassifier</strong>.
