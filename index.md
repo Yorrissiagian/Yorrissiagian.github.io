@@ -204,17 +204,64 @@
   <p><a href="https://ieeexplore.ieee.org/document/10250127" target="_blank">📄 Lihat Publikasi IEEE</a></p>
 </div>
 
-### 💬 Analisis Sentimen Ulasan
+<!-- 📱 Analisis Sentimen Review Gojek -->
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3><a href="https://github.com/Yorrissiagian/Proyek-Analisis-Sentimen" target="_blank">Analisis Sentimen Review Gojek</a></h3>
-  <p>Submission kelas Belajar Fundamental Deep Learning yang berfokus pada scraping, preprocessing, pelabelan sentimen berbasis lexicon, visualisasi, serta klasifikasi menggunakan MLP terhadap review aplikasi Gojek dari Google Play Store.</p>
+  <h3>Analisis Sentimen</h3>
+  <p>
+    Submission proyek kelas <strong>"Belajar Fundamental Deep Learning"</strong> yang berfokus pada analisis sentimen terhadap review aplikasi Gojek dari Google Play Store. 
+    Proyek ini mencakup scraping, preprocessing teks, labeling sentimen berbasis lexicon, visualisasi, dan klasifikasi menggunakan <strong>MLPClassifier</strong>.
+  </p>
+
   <ul>
-    <li>Scraping: 10.000 review menggunakan google-play-scraper</li>
-    <li>Preprocessing lengkap: cleaning, slang correction, tokenization, stopword removal, stemming</li>
-    <li>Labeling sentimen: lexicon_positive & lexicon_negative (threshold >=0: positif)</li>
-    <li>Model: MLPClassifier (akurasi testing: 92.14%)</li>
+    <li>Scraping 10.000 review aplikasi <code>com.gojek.app</code> menggunakan <strong>google-play-scraper</strong></li>
+    <li>Preprocessing teks: slang correction, tokenization, stopword removal, stemming</li>
+    <li>Labeling sentimen berbasis <strong>lexicon-positive</strong> dan <strong>lexicon-negative</strong></li>
+    <li>Model klasifikasi: <strong>MLPClassifier</strong> dengan akurasi testing 92.14%</li>
   </ul>
+
+  <div class="image-block">
+    <img src="Asset/Sentiment Polarity Data.png" alt="Distribusi Sentimen Review Gojek"
+      style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      <strong>Distribusi Sentimen:</strong> Pie chart menunjukkan bahwa sebagian besar review bernada positif, dengan proporsi signifikan dari review negatif. 
+      Ini menjadi dasar evaluasi performa model klasifikasi selanjutnya.
+    </p>
+  </div>
+
+  <div class="image-block">
+    <img src="Asset/WordCloud.png" alt="Word Cloud Review Gojek"
+      style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      <strong>WordCloud:</strong> Visualisasi kata-kata yang paling sering muncul dalam review pengguna aplikasi Gojek. Kata "gojek", "driver", dan "layanan" termasuk yang paling dominan.
+    </p>
+  </div>
+
+  <h4>📈 Evaluasi Model Klasifikasi (MLPClassifier)</h4>
+  <ul>
+    <li><strong>Akurasi Training:</strong> 98.11%</li>
+    <li><strong>Akurasi Testing:</strong> 92.14%</li>
+  </ul>
+  <pre style="background-color:#1e1e1e; padding:1rem; border-radius:10px; color:#cfd8dc;">
+Classification Report (Testing - MLP):
+
+              precision    recall  f1-score   support
+
+           0       0.93      0.94      0.94      3966
+           1       0.90      0.89      0.90      2471
+
+    accuracy                           0.92      6437
+   macro avg       0.92      0.92      0.92      6437
+weighted avg       0.92      0.92      0.92      6437
+  </pre>
+
+  <h4>📌 Hasil & Insight</h4>
+  <p>
+    Dataset review Gojek berhasil dikumpulkan dan diproses menggunakan pipeline teks lengkap. Labeling berbasis lexicon memberikan dasar yang kuat untuk supervised learning.
+    WordCloud memperlihatkan kata-kata kunci pengguna, dan model <strong>MLPClassifier</strong> berhasil mengklasifikasikan review dengan akurasi tinggi. 
+    Hal ini menunjukkan bahwa pendekatan sederhana namun terstruktur dapat menghasilkan model NLP yang <strong>efektif dan dapat diandalkan</strong>.
+  </p>
+
   <p>
     <span class="badge">NLP</span>
     <span class="badge">Sentiment Analysis</span>
@@ -222,6 +269,7 @@
     <span class="badge">MLPClassifier</span>
   </p>
 </div>
+
 
 <!-- 🏗 Membangun Proyek ML Terintegrasi -->
 <div class="project">
