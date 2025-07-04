@@ -219,12 +219,12 @@
   <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
     <thead style="background: #263238;">
       <tr>
-        <th style="padding: 8px; border: 1px solid #555;">Algoritma</th>
-        <th style="padding: 8px; border: 1px solid #555;">Akurasi</th>
-        <th style="padding: 8px; border: 1px solid #555;">Precision</th>
-        <th style="padding: 8px; border: 1px solid #555;">Recall</th>
-        <th style="padding: 8px; border: 1px solid #555;">F1-Score</th>
-        <th style="padding: 8px; border: 1px solid #555;">F2-Score</th>
+        <th style="padding: 8px; border: 1px solid #555; color: #ffffff;">Algoritma</th>
+        <th style="padding: 8px; border: 1px solid #555; color: #ffffff;">Akurasi</th>
+        <th style="padding: 8px; border: 1px solid #555; color: #ffffff;">Precision</th>
+        <th style="padding: 8px; border: 1px solid #555; color: #ffffff;">Recall</th>
+        <th style="padding: 8px; border: 1px solid #555; color: #ffffff;">F1-Score</th>
+        <th style="padding: 8px; border: 1px solid #555; color: #ffffff;">F2-Score</th>
       </tr>
     </thead>
     <tbody>
