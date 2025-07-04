@@ -217,7 +217,7 @@
 
   <h4>📊 Hasil Evaluasi</h4>
   <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
-    <thead style="background: #1a237e;">
+    <thead style="background: #263238;">
       <tr>
         <th style="padding: 8px; border: 1px solid #555;">Algoritma</th>
         <th style="padding: 8px; border: 1px solid #555;">Akurasi</th>
