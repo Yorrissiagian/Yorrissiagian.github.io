@@ -146,63 +146,47 @@
   </p>
 
   <p>
-    Proyek ini merupakan solusi berbasis <strong>Computer Vision</strong> yang dikembangkan untuk membantu petani mengidentifikasi penyakit daun pada lima jenis tanaman utama: <strong>tomat, cabai, kentang, terong, dan labu</strong>. Salah satu tantangan utama di sektor pertanian adalah kesulitan mendeteksi penyakit tanaman secara dini, yang berdampak langsung pada produktivitas dan ketahanan pangan.
+    <strong>Proyek ini merupakan Capstone Project dari program Laskar AI</strong>, yang berfokus pada penerapan deep learning di sektor pertanian. Tujuan utamanya adalah membangun sistem deteksi otomatis penyakit daun tanaman berbasis gambar, untuk lima komoditas utama: <em>tomat, cabai, kentang, terong, dan labu</em>.
   </p>
 
   <p>
-    Sistem ini menggunakan arsitektur <strong>MobileNetV1</strong> sebagai backbone model klasifikasi gambar karena keunggulannya dalam efisiensi dan performa tinggi pada perangkat terbatas (edge device). Model dilatih menggunakan dataset anotasi citra daun dari 31 kelas penyakit (termasuk daun sehat) dengan teknik <strong>data augmentation</strong> dan <strong>transfer learning</strong> untuk meningkatkan generalisasi.
+    Sistem ini dilatih untuk mengenali 31 kelas berbeda — mencakup berbagai jenis penyakit dan juga kondisi daun sehat. Model inti yang digunakan adalah <strong>MobileNetV1</strong>, dipilih karena bobotnya yang ringan namun akurat, sehingga ideal untuk kebutuhan deteksi cepat di perangkat terbatas.
   </p>
 
-  <p>
-    Proyek ini kemudian diintegrasikan ke dalam antarmuka pengguna berbasis <strong>Streamlit</strong>, memungkinkan pengguna untuk mengunggah gambar daun dan menerima hasil prediksi secara <em>real-time</em> melalui web.
-  </p>
-
-  <p><strong>Peran saya dalam proyek:</strong> </p>
-  <ul>
-    <li>Memimpin tim dalam proses perencanaan dan eksperimen.</li>
-    <li>Melakukan training dan evaluasi model klasifikasi.</li>
-    <li>Melakukan deployment aplikasi menggunakan Streamlit Cloud.</li>
-  </ul>
+  <p><strong>Peran saya:</strong> Pemimpin tim, bertanggung jawab atas pengujian model, tuning hyperparameter, dan deployment ke Streamlit Cloud.</p>
 
   <p>
-    <span class="badge">Classification</span>
-    <span class="badge">Transfer Learning</span>
-    <span class="badge">Streamlit</span>
+    <span class="badge">Image Classification</span>
     <span class="badge">MobileNetV1</span>
-    <span class="badge">Computer Vision</span>
-    <span class="badge">Python</span>
+    <span class="badge">Streamlit</span>
+    <span class="badge">Transfer Learning</span>
+    <span class="badge">Agritech</span>
   </p>
-
-  <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi</a></p>
-
-  <h4>📊 Evaluasi Model</h4>
-  <p>
-    Model mencapai <strong>akurasi 82%</strong> pada data uji, dengan skor F1 dan precision yang cukup tinggi (macro avg = 0.82).
-    Evaluasi dilakukan pada 31 kelas dengan distribusi seimbang. Hasilnya divisualisasikan melalui confusion matrix di bawah ini:
-  </p>
-  <img src="assets/images/6699c183-0f66-4efc-a432-d7310d13b4cc.png" alt="Confusion Matrix" style="width:100%; max-width:800px; border-radius:10px; margin-bottom:1rem;">
-
-  <h4>🖼️ Tampilan Aplikasi Streamlit</h4>
-  <p>
-    Berikut adalah tampilan antarmuka pengguna dari aplikasi yang dikembangkan menggunakan Streamlit. Setelah pengguna mengunggah gambar daun, sistem akan menampilkan jenis penyakit, tingkat akurasi prediksi, dan rekomendasi tindakan jika diperlukan.
-  </p>
-  <img src="assets/images/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Tampilan Aplikasi Streamlit" style="width:100%; max-width:800px; border-radius:10px; margin-bottom:1rem;">
-
-  <h4>🚀 Dampak & Manfaat</h4>
-  <p>
-    Sistem ini dirancang untuk diakses secara luas oleh petani di daerah yang belum memiliki akses ke penyuluh pertanian secara rutin. Dengan deteksi dini berbasis AI, petani dapat:
-  </p>
-  <ul>
-    <li>Mengidentifikasi penyakit dengan cepat dan akurat</li>
-    <li>Mengurangi kerugian hasil panen</li>
-    <li>Meningkatkan efisiensi penanganan penyakit tanaman</li>
-    <li>Berpartisipasi dalam transformasi digital sektor pertanian</li>
-  </ul>
 
   <p>
-    Proyek ini menunjukkan bagaimana teknologi AI dapat diimplementasikan untuk memberikan solusi nyata di sektor vital seperti pertanian, serta menjadi salah satu langkah menuju pertanian presisi di Indonesia.
+    <a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Coba Demo Aplikasinya</a>
   </p>
+
+  <div class="image-block">
+    <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1"
+         style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      <strong>Analisis Confusion Matrix:</strong><br>
+      Confusion matrix ini menunjukkan performa model terhadap 31 kelas penyakit daun. <strong>Akurasi keseluruhan mencapai 82%</strong> dengan macro average F1-score sebesar 82%. Pola diagonal menunjukkan bahwa sebagian besar prediksi sesuai target. Namun, beberapa kelas seperti penyakit daun yang memiliki visual mirip—contohnya <em>mosaic</em> dan <em>leaf curl</em>—masih sering tertukar. Analisis ini kami gunakan sebagai dasar perbaikan preprocessing dan augmentasi untuk meningkatkan kemampuan generalisasi model ke data dunia nyata.
+    </p>
+  </div>
+
+  <div class="image-block">
+    <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman"
+         style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      <strong>Tampilan Aplikasi Streamlit:</strong><br>
+      Aplikasi ini dirancang agar mudah digunakan oleh petani dan masyarakat umum. Cukup unggah foto daun yang ingin didiagnosa, sistem akan secara otomatis mengklasifikasikan jenis penyakit atau menyatakan bahwa daun tersebut sehat. Hasil prediksi disertai persentase akurasi dan notifikasi peringatan dini jika ditemukan penyakit. Aplikasi ini bertujuan untuk membantu petani mengambil tindakan cepat—seperti menyemprot fungisida atau berkonsultasi dengan penyuluh pertanian—sebelum penyakit menyebar dan menyebabkan kerugian panen.
+    </p>
+  </div>
+
 </div>
+
 
 ### 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
