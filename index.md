@@ -215,12 +215,34 @@
       🔗 Lihat Proyek Lengkap di GitHub
     </a>
   </p>
-  <p>Model Logistic Regression untuk menganalisis penyebab tingginya attrition. Dashboard dibuat menggunakan Metabase.</p>
+  <p>
+    Proyek akhir dari kelas <strong>Belajar Penerapan Data Science</strong> yang diselenggarakan oleh <strong>Laskar AI x Dicoding</strong>. 
+    Proyek ini berfokus pada analisis penyebab tingginya <em>attrition</em> (>12%) di perusahaan fiktif Jaya Jaya Maju, menggunakan pendekatan 
+    <strong>Logistic Regression</strong> dan visualisasi interaktif via <strong>Metabase</strong>.
+  </p>
+  <p><strong>Peran:</strong> Exploratory Data Analysis, pemodelan, dan visualisasi bisnis.</p>
   <p>
     <span class="badge">HR Analytics</span>
     <span class="badge">Logistic Regression</span>
     <span class="badge">Metabase</span>
   </p>
+
+  <p><strong>Fitur Utama:</strong></p>
+  <ul>
+    <li>Melakukan <em>exploratory data analysis</em> untuk mengidentifikasi pola attrition berdasarkan lembur, promosi terakhir, dan masa kerja.</li>
+    <li>Mengembangkan dua model Logistic Regression (default & class-balanced) untuk membandingkan trade-off antara akurasi dan recall.</li>
+    <li>Model seimbang dipilih karena meningkatkan <strong>recall dari 50% menjadi 72%</strong>, penting untuk mendeteksi risiko keluar lebih akurat.</li>
+    <li>Dashboard Metabase menampilkan metrik kunci seperti attrition per departemen, dampak lembur, dan tren promosi.</li>
+  </ul>
+
+  <p><strong>Hasil Insight:</strong></p>
+  <ul>
+    <li><strong>Lembur (OverTime)</strong> dan <strong>tidak adanya promosi dalam 0–2 tahun terakhir</strong> menjadi dua penyebab utama tingginya attrition.</li>
+    <li>Departemen <strong>Sales</strong> menunjukkan attrition tertinggi (~22%) dibandingkan departemen lain.</li>
+    <li>Rekomendasi mencakup pengurangan beban kerja lembur dan program promosi terjadwal.</li>
+  </ul>
+
+  <p><strong>Model Disimpan:</strong> logistic_attrition_model.pkl (class-balanced version)</p>
 </div>
 
 ### 🖼 Klasifikasi Gambar Daun Tomat
