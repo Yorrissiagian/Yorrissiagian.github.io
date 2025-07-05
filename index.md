@@ -244,7 +244,7 @@
 
   <p><strong>Model Disimpan:</strong> logistic_attrition_model.pkl (class-balanced version)</p>
 
-  <p><strong>Contoh Visualisasi Dashboard Metabase:</strong></p>
+  <p><strong>Visualisasi Dashboard Metabase:</strong></p>
   <img src="Asset/Metabase.png" alt="Visualisasi Dashboard Metabase - Attrition Analysis" style="max-width:100%; border: 1px solid #ccc; border-radius: 8px; margin-top: 1rem;" />
   <p style="font-size: 0.9rem; margin-top: 0.5rem;">
     Visual ini menampilkan ringkasan attrition rate perusahaan, distribusi berdasarkan lembur, masa kerja, promosi terakhir, dan departemen. 
