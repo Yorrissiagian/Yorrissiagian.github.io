@@ -138,19 +138,70 @@
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Deteksi Penyakit Tanaman</h3>
+
   <p>
     <a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" class="button" target="_blank">
       🔗 Lihat Proyek Lengkap di GitHub
     </a>
   </p>
-  <p>Proyek Computer Vision berbasis MobileNetV1 untuk mendeteksi penyakit tanaman. Dideploy dengan Streamlit.</p>
-  <p><strong>Peran:</strong> Pemimpin tim, pengujian model, deployment.</p>
+
+  <p>
+    Proyek ini merupakan solusi berbasis <strong>Computer Vision</strong> yang dikembangkan untuk membantu petani mengidentifikasi penyakit daun pada lima jenis tanaman utama: <strong>tomat, cabai, kentang, terong, dan labu</strong>. Salah satu tantangan utama di sektor pertanian adalah kesulitan mendeteksi penyakit tanaman secara dini, yang berdampak langsung pada produktivitas dan ketahanan pangan.
+  </p>
+
+  <p>
+    Sistem ini menggunakan arsitektur <strong>MobileNetV1</strong> sebagai backbone model klasifikasi gambar karena keunggulannya dalam efisiensi dan performa tinggi pada perangkat terbatas (edge device). Model dilatih menggunakan dataset anotasi citra daun dari 31 kelas penyakit (termasuk daun sehat) dengan teknik <strong>data augmentation</strong> dan <strong>transfer learning</strong> untuk meningkatkan generalisasi.
+  </p>
+
+  <p>
+    Proyek ini kemudian diintegrasikan ke dalam antarmuka pengguna berbasis <strong>Streamlit</strong>, memungkinkan pengguna untuk mengunggah gambar daun dan menerima hasil prediksi secara <em>real-time</em> melalui web.
+  </p>
+
+  <p><strong>Peran saya dalam proyek:</strong> </p>
+  <ul>
+    <li>Memimpin tim dalam proses perencanaan dan eksperimen.</li>
+    <li>Melakukan training dan evaluasi model klasifikasi.</li>
+    <li>Melakukan deployment aplikasi menggunakan Streamlit Cloud.</li>
+  </ul>
+
   <p>
     <span class="badge">Classification</span>
+    <span class="badge">Transfer Learning</span>
     <span class="badge">Streamlit</span>
     <span class="badge">MobileNetV1</span>
+    <span class="badge">Computer Vision</span>
+    <span class="badge">Python</span>
   </p>
-  <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Lihat Demo</a></p>
+
+  <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi</a></p>
+
+  <h4>📊 Evaluasi Model</h4>
+  <p>
+    Model mencapai <strong>akurasi 82%</strong> pada data uji, dengan skor F1 dan precision yang cukup tinggi (macro avg = 0.82).
+    Evaluasi dilakukan pada 31 kelas dengan distribusi seimbang. Hasilnya divisualisasikan melalui confusion matrix di bawah ini:
+  </p>
+  <img src="assets/images/6699c183-0f66-4efc-a432-d7310d13b4cc.png" alt="Confusion Matrix" style="width:100%; max-width:800px; border-radius:10px; margin-bottom:1rem;">
+
+  <h4>🖼️ Tampilan Aplikasi Streamlit</h4>
+  <p>
+    Berikut adalah tampilan antarmuka pengguna dari aplikasi yang dikembangkan menggunakan Streamlit. Setelah pengguna mengunggah gambar daun, sistem akan menampilkan jenis penyakit, tingkat akurasi prediksi, dan rekomendasi tindakan jika diperlukan.
+  </p>
+  <img src="assets/images/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Tampilan Aplikasi Streamlit" style="width:100%; max-width:800px; border-radius:10px; margin-bottom:1rem;">
+
+  <h4>🚀 Dampak & Manfaat</h4>
+  <p>
+    Sistem ini dirancang untuk diakses secara luas oleh petani di daerah yang belum memiliki akses ke penyuluh pertanian secara rutin. Dengan deteksi dini berbasis AI, petani dapat:
+  </p>
+  <ul>
+    <li>Mengidentifikasi penyakit dengan cepat dan akurat</li>
+    <li>Mengurangi kerugian hasil panen</li>
+    <li>Meningkatkan efisiensi penanganan penyakit tanaman</li>
+    <li>Berpartisipasi dalam transformasi digital sektor pertanian</li>
+  </ul>
+
+  <p>
+    Proyek ini menunjukkan bagaimana teknologi AI dapat diimplementasikan untuk memberikan solusi nyata di sektor vital seperti pertanian, serta menjadi salah satu langkah menuju pertanian presisi di Indonesia.
+  </p>
 </div>
 
 ### 🎓 Prediksi Dropout Mahasiswa
