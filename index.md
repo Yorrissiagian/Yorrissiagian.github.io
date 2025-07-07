@@ -316,12 +316,12 @@
   </p>
   <p>
     Proyek akhir dari kelas <strong>Belajar Fundamental Deep Learning</strong> yang membangun model CNN untuk mengklasifikasikan 10 jenis penyakit daun tomat. 
-    Dataset berisi 10.000 gambar yang dibagi dalam <code>train</code>, <code>validation</code>, dan <code>test</code>. 
+    Dataset berisi 10.000 gambar yang dibagi dalam train, validation, dan test. 
     Augmentasi digunakan untuk meningkatkan generalisasi model.
   </p>
   <p>
     Arsitektur model terdiri dari 3 blok Conv2D + MaxPooling, diikuti Dense layer dan Dropout. 
-    Model dilatih menggunakan <strong>Adam optimizer</strong> dan <code>EarlyStopping</code>. Evaluasi menunjukkan:
+    Model dilatih menggunakan <strong>Adam optimizer</strong> dan EarlyStopping. Evaluasi menunjukkan:
   </p>
   <ul>
     <li><strong>Akurasi:</strong> 91.2%</li>
