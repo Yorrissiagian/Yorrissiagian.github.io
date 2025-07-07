@@ -190,21 +190,73 @@
 
 ### 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
-  <div class="subtitle">Laskar AI x Dicoding</div>
+  <div class="subtitle">Laskar AI x Dicoding — Proyek Akhir Kelas Belajar Penerapan Data Science</div>
   <h3>Prediksi Dropout Mahasiswa</h3>
   <p>
     <a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" class="button" target="_blank">
       🔗 Lihat Proyek Lengkap di GitHub
     </a>
   </p>
-  <p>Model Random Forest untuk mendeteksi risiko dropout mahasiswa. Dilengkapi dashboard Metabase & aplikasi Streamlit.</p>
+  <p>
+    Proyek ini bertujuan untuk memprediksi risiko dropout mahasiswa Jaya Jaya Institut berdasarkan faktor akademik, demografis, dan finansial. Model machine learning yang digunakan adalah <strong>Random Forest Classifier</strong> dengan pipeline lengkap untuk preprocessing, evaluasi, dan deployment.
+  </p>
+
+  <h4>📊 Business Dashboard</h4>
+  <p>Dashboard interaktif dibangun dengan Metabase dan menampilkan:</p>
+  <ul>
+    <li><strong>Distribusi Dropout vs Lulus:</strong> 39.1% mahasiswa tercatat dropout dari total 3.630.</li>
+    <li><strong>Dropout Berdasarkan Gender:</strong> Visualisasi perbandingan jumlah dropout laki-laki dan perempuan.</li>
+    <li><strong>Nilai Akademik dan Unit Lulus:</strong> Perbandingan nilai rata-rata masuk, unit lulus, dan IPK akhir antara mahasiswa dropout dan graduate.</li>
+    <li><strong>Distribusi Usia Masuk Mahasiswa:</strong> Dropout didominasi oleh usia <em>early twenties</em>.</li>
+    <li><strong>Faktor Ekonomi:</strong> Mahasiswa dengan tunggakan dan tanpa beasiswa memiliki risiko dropout tertinggi.</li>
+  </ul>
+  <div class="image-block">
+    <img src="Asset/jayainstitut_dashboard.jpg" alt="Dashboard Dropout Mahasiswa" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      Dashboard Metabase menampilkan metrik penting seperti rasio dropout, distribusi berdasarkan gender dan usia, serta pengaruh faktor ekonomi.
+    </p>
+  </div>
+
+  <h4>🧠 Prediksi Model</h4>
+  <p>Model dibangun dengan <strong>Random Forest</strong> dan mencapai performa sebagai berikut:</p>
+  <ul>
+    <li><strong>Akurasi:</strong> 91.87%</li>
+    <li><strong>F1-Score (Dropout):</strong> 0.89</li>
+    <li><strong>Precision:</strong> 0.95</li>
+    <li><strong>Recall:</strong> 0.84</li>
+  </ul>
+  <p>Fitur paling berpengaruh terhadap prediksi dropout:</p>
+  <ol>
+    <li>Status keterlambatan pembayaran (tuition fees)</li>
+    <li>Status beasiswa</li>
+    <li>Status utang (debtor)</li>
+    <li>Usia saat mendaftar</li>
+    <li>Nilai masuk (admission grade)</li>
+  </ol>
+
+  <h4>🖥 Aplikasi Streamlit</h4>
+  <p>
+    Aplikasi prediksi dibuat dengan Streamlit dan dapat digunakan oleh staf kampus untuk menguji risiko dropout berdasarkan data input mahasiswa. Sistem akan menampilkan status prediksi (DROPOUT / GRADUATE) secara instan.
+  </p>
+  <div class="image-block">
+    <img src="Asset/streamlit_JayaInstitut.png" alt="Streamlit Prediksi Dropout" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      Form interaktif yang memungkinkan pengguna memasukkan data mahasiswa dan langsung melihat prediksi dropout.
+    </p>
+  </div>
+  <p>
+    <a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a>
+  </p>
+
   <p>
     <span class="badge">Classification</span>
     <span class="badge">Metabase</span>
+    <span class="badge">Streamlit</span>
     <span class="badge">Random Forest</span>
+    <span class="badge">Data Science</span>
   </p>
-  <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo</a></p>
 </div>
+
 
 ### 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
