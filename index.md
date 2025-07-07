@@ -305,22 +305,46 @@
 </div>
 
 
-### 🖼 Klasifikasi Gambar Daun Tomat
+### 🖼 Klasifikasi Penyakit Daun Tomat
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
-  <h3>Klasifikasi Penyakit Daun Tomat</h3>
-   <p>
+  <h3>Klasifikasi Daun Tomat Menggunakan CNN</h3>
+  <p>
     <a href="https://github.com/Yorrissiagian/Proyek-Klasifikasi-Gambar" class="button" target="_blank">
       🔗 Lihat Proyek Lengkap di GitHub
     </a>
   </p>
-  <p>Menggunakan CNN untuk klasifikasi 10 jenis penyakit daun tomat. Akurasi mencapai 91.2%.</p>
+  <p>
+    Proyek akhir dari kelas <strong>Belajar Fundamental Deep Learning</strong> yang membangun model CNN untuk mengklasifikasikan 10 jenis penyakit daun tomat. 
+    Dataset berisi 10.000 gambar yang dibagi dalam <code>train</code>, <code>validation</code>, dan <code>test</code>. 
+    Augmentasi digunakan untuk meningkatkan generalisasi model.
+  </p>
+  <p>
+    Arsitektur model terdiri dari 3 blok Conv2D + MaxPooling, diikuti Dense layer dan Dropout. 
+    Model dilatih menggunakan <strong>Adam optimizer</strong> dan <code>EarlyStopping</code>. Evaluasi menunjukkan:
+  </p>
+  <ul>
+    <li><strong>Akurasi:</strong> 91.2%</li>
+    <li><strong>F1-Score Macro:</strong> 0.91</li>
+    <li>Performa stabil pada semua kelas, termasuk deteksi daun sehat</li>
+  </ul>
+
+  <div class="image-block">
+    <img src="Asset/training_validation_plot.png" alt="Training vs Validation Accuracy and Loss"
+      style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">
+      <strong>Learning Curve:</strong> Menunjukkan bahwa model tidak overfitting dan berhasil belajar dari data secara konsisten.
+    </p>
+  </div>
+
   <p>
     <span class="badge">CNN</span>
-    <span class="badge">Klasifikasi Gambar</span>
-    <span class="badge">TensorFlow</span>
+    <span class="badge">Image Classification</span>
+    <span class="badge">Tomato Disease</span>
+    <span class="badge">Deep Learning</span>
   </p>
 </div>
+
 
 <!-- 🧠 Klasifikasi Wajah Anak Autis -->
 <div class="project">
