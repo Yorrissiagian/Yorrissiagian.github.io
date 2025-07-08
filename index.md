@@ -180,7 +180,7 @@
 
 <!-- Semua proyek ditampilkan di bawah -->
 
-### 🌾 Deteksi Penyakit Tanaman Pertanian
+🌾 Deteksi Penyakit Tanaman Pertanian
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Deteksi Penyakit Tanaman</h3>
@@ -199,7 +199,7 @@
   </div>
 </div>
 
-### 🎓 Prediksi Dropout Mahasiswa
+🎓 Prediksi Dropout Mahasiswa
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Prediksi Dropout Mahasiswa</h3>
@@ -226,7 +226,7 @@
   <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a></p>
   <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>
 </div>
-### 🧑‍💼 Analisis Attrition Human Resources
+🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Attrition Analysis - Jaya Jaya Maju</h3>
@@ -265,7 +265,7 @@
 </div>
 
 
-### 🖼 Klasifikasi Penyakit Daun Tomat
+🖼 Klasifikasi Penyakit Daun Tomat
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Klasifikasi Daun Tomat Menggunakan CNN</h3>
