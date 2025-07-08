@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="id">
 <head>
   <meta charset="UTF-8">
@@ -6,121 +5,136 @@
   <title>Portofolio Yorris Siagian</title>
   <link rel="stylesheet" href="style.css">
   <style>
-    body {
-      background-color: #121212;
-      color: #e0e0e0;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-      padding: 2rem;
-      line-height: 1.6;
-    }
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    padding: 2rem;
+    line-height: 1.6;
+  }
 
-    h1, h2, h3, h4 {
-      color: #64b5f6;
-    }
+  h1, h2, h3, h4 {
+    color: #64b5f6;
+  }
 
-    a {
-      color: #64b5f6;
-      text-decoration: none;
-    }
+  a {
+    color: #64b5f6;
+    text-decoration: none;
+  }
 
-    a:hover {
-      text-decoration: underline;
-    }
+  a:hover {
+    text-decoration: underline;
+  }
 
-    .button {
-      display: inline-block;
-      background-color: #64b5f6;
-      color: #121212;
-      padding: 10px 18px;
-      border-radius: 8px;
-      font-weight: bold;
-      transition: background-color 0.2s ease;
-    }
+  .button {
+    display: inline-block;
+    background-color: #64b5f6;
+    color: #121212;
+    padding: 10px 18px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.2s ease;
+  }
 
-    .button:hover {
-      background-color: #42a5f5;
-      color: #ffffff;
-    }
+  .button:hover {
+    background-color: #42a5f5;
+    color: #ffffff;
+  }
 
-    .badge {
-      display: inline-block;
-      background-color: #64b5f6;
-      color: #121212;
-      padding: 6px 10px;
-      border-radius: 5px;
-      font-size: 0.9rem;
-      margin-right: 6px;
-      margin-bottom: 6px;
-    }
+  .badge {
+    display: inline-block;
+    background-color: #64b5f6;
+    color: #121212;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    margin-right: 6px;
+    margin-bottom: 6px;
+  }
 
-    .project {
-      margin-bottom: 4rem;
-      padding: 1.5rem;
-      background-color: #1e1e1e;
-      border-radius: 15px;
-      box-shadow: 0 0 10px rgba(100, 181, 246, 0.2);
-    }
+  .project {
+    margin-bottom: 4rem;
+    padding: 1.5rem;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(100, 181, 246, 0.2);
+  }
 
-    .image-block {
-      margin-top: 1rem;
-    }
+  .image-block {
+    margin-top: 1rem;
+  }
 
-    .image-block img {
-      max-width: 100%;
-      border-radius: 10px;
-      box-shadow: 0 0 10px rgba(0,0,0,0.2);
-    }
+  .image-block img {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  }
 
-    .caption {
-      font-size: 0.95rem;
-      margin-top: 0.5rem;
-      color: #b0bec5;
-    }
+  .caption {
+    font-size: 0.95rem;
+    margin-top: 0.5rem;
+    color: #b0bec5;
+  }
 
-    blockquote {
-      background-color: #1f1f1f;
-      border-left: 5px solid #64b5f6;
-      padding: 1rem;
-      font-style: italic;
-      border-radius: 5px;
-    }
+  blockquote {
+    background-color: #1f1f1f;
+    border-left: 5px solid #64b5f6;
+    padding: 1rem;
+    font-style: italic;
+    border-radius: 5px;
+  }
 
-    ul, ol {
-      padding-left: 1.5rem;
-    }
+  ul, ol {
+    padding-left: 1.5rem;
+  }
 
-    table {
-      width: 100%;
-      border-collapse: collapse;
-      color: #e0e0e0;
-      margin-top: 1rem;
-    }
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    color: #e0e0e0;
+    margin-top: 1rem;
+  }
 
-    th, td {
-      padding: 8px;
-      border: 1px solid #555;
-    }
+  th, td {
+    padding: 8px;
+    border: 1px solid #555;
+  }
 
-    th {
-      background-color: #1a237e;
-      color: #fff;
-    }
+  th {
+    background-color: #1a237e;
+    color: #fff;
+  }
 
-    tr:nth-child(even) {
-      background-color: #263238;
-    }
+  tr:nth-child(even) {
+    background-color: #263238;
+  }
 
-    .grid-2 {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 1rem;
-    }
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
 
-    hr {
-      border: 1px solid #64b5f6;
-      margin: 3rem 0;
-    }
-  </style>
+  hr {
+    border: 1px solid #64b5f6;
+    margin: 3rem 0;
+  }
+
+  /* 👇 Tambahan untuk foto profil */
+  .profile-pic {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(100, 181, 246, 0.4);
+    margin-bottom: 1rem;
+  }
+
+  .profile-container {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+</style>
 </head>
 <body>
 <h1>👋 Halo! Saya Yorris Siagian</h1>
