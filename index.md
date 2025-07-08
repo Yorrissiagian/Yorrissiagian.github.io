@@ -196,7 +196,6 @@
     <p class="caption">Tampilan aplikasi Streamlit: upload gambar daun, hasil klasifikasi muncul langsung.</p>
   </div>
   <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span> 
-</div>
 
 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
