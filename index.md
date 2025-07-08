@@ -225,7 +225,7 @@
   </div>
   <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a></p>
   <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>
-</div>
+
 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
