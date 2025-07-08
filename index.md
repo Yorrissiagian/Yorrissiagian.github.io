@@ -120,8 +120,13 @@
     margin: 3rem 0;
   }
 
-  /* 👇 Tambahan untuk foto profil */
-  .profile-pic {
+  /* ✅ Tambahan untuk foto profil */
+  .profile-container {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+
+  .profile-container img {
     width: 150px;
     height: 150px;
     object-fit: cover;
@@ -129,17 +134,15 @@
     box-shadow: 0 0 10px rgba(100, 181, 246, 0.4);
     margin-bottom: 1rem;
   }
-
-  .profile-container {
-    text-align: center;
-    margin-bottom: 3rem;
-  }
 </style>
+
 </head>
 <body>
 <h1>👋 Halo! Saya Yorris Siagian</h1>
-<div class="profile-photo">
+<div class="profile-container">
   <img src="{{ '/yoris.jpg' | relative_url }}" alt="Foto Profil Yorris Siagian">
+  <h1>Yorris Siagian</h1>
+  <p>Machine Learning Engineer | AI Enthusiast</p>
 </div>
 
 <h2>💼 Tentang Saya</h2>
