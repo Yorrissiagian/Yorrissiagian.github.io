@@ -1,3 +1,128 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portofolio Yorris Siagian</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      background-color: #121212;
+      color: #e0e0e0;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+
+    h1, h2, h3, h4 {
+      color: #64b5f6;
+    }
+
+    a {
+      color: #64b5f6;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .button {
+      display: inline-block;
+      background-color: #64b5f6;
+      color: #121212;
+      padding: 10px 18px;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: background-color 0.2s ease;
+    }
+
+    .button:hover {
+      background-color: #42a5f5;
+      color: #ffffff;
+    }
+
+    .badge {
+      display: inline-block;
+      background-color: #64b5f6;
+      color: #121212;
+      padding: 6px 10px;
+      border-radius: 5px;
+      font-size: 0.9rem;
+      margin-right: 6px;
+      margin-bottom: 6px;
+    }
+
+    .project {
+      margin-bottom: 4rem;
+      padding: 1.5rem;
+      background-color: #1e1e1e;
+      border-radius: 15px;
+      box-shadow: 0 0 10px rgba(100, 181, 246, 0.2);
+    }
+
+    .image-block {
+      margin-top: 1rem;
+    }
+
+    .image-block img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+    }
+
+    .caption {
+      font-size: 0.95rem;
+      margin-top: 0.5rem;
+      color: #b0bec5;
+    }
+
+    blockquote {
+      background-color: #1f1f1f;
+      border-left: 5px solid #64b5f6;
+      padding: 1rem;
+      font-style: italic;
+      border-radius: 5px;
+    }
+
+    ul, ol {
+      padding-left: 1.5rem;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      color: #e0e0e0;
+      margin-top: 1rem;
+    }
+
+    th, td {
+      padding: 8px;
+      border: 1px solid #555;
+    }
+
+    th {
+      background-color: #1a237e;
+      color: #fff;
+    }
+
+    tr:nth-child(even) {
+      background-color: #263238;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1rem;
+    }
+
+    hr {
+      border: 1px solid #64b5f6;
+      margin: 3rem 0;
+    }
+  </style>
+</head>
+<body>
 <h1>👋 Halo! Saya Yorris Siagian</h1>
 <div class="profile-photo">
   <img src="{{ '/yoris.jpg' | relative_url }}" alt="Foto Profil Yorris Siagian">
@@ -22,18 +147,16 @@
 
 <h2>👨‍💼 Pengalaman Kerja</h2>
 <ul>
-  <li><strong>Machine Learning Intern – Laskar AI x Dicoding (2024)</strong><br> 
-      Bekerja dalam proyek-proyek nyata terkait klasifikasi gambar, NLP, deployment model dan visualisasi metrik bisnis berbasis data.</li>
+  <li><strong>Web Administrator – Tobacamp (Juli 2023 - September 2024)</strong><br> 
+      Bekerja dalam Bertanggung jawab atas pengelolaan website mulai dari pemeliharaan hingga konten website dan bertanggung jawab sebagai mentor UX Design untuk pelatihan UX Design.</li>
 </ul>
 
 <h2>🎓 Riwayat Pendidikan</h2>
 <ul>
-  <li><strong>Universitas Medan Area</strong> – S1 Teknik Informatika (2020–2024)</li>
+  <li><strong>Universitas Medan Area</strong> – S1 Teknik Informatika (2019–2024)</li>
 </ul>
 
 <h2>🚀 Proyek Saya</h2>
-<h2>🚀 Proyek Saya</h2>
-
 <!-- Semua proyek ditampilkan di bawah -->
 
 ### 🌾 Deteksi Penyakit Tanaman Pertanian
@@ -537,14 +660,13 @@ weighted avg       0.92      0.92      0.92      6437
 </div>
 
 <hr>
+  <hr>
+  <h2>📣 Kontak Saya</h2>
+  <ul>
+    <li><strong>Email:</strong> yorrissiagian@gmail.com</li>
+    <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yorrissiagian" target="_blank">linkedin.com/in/yorrissiagian</a></li>
+    <li><strong>GitHub:</strong> <a href="https://github.com/Yorrissiagian" target="_blank">github.com/Yorrissiagian</a></li>
+  </ul>
 
-<h2>📣 Kontak Saya</h2>
-<ul>
-  <li>📧 Email: yorrissiagian6@email.com</li>
-  <li>💼 LinkedIn: <a href="https://linkedin.com/in/yorris-siagian-9a4756243" target="_blank">linkedin.com/in/yorris-siagian-9a4756243</a></li>
-  <li>👥 GitHub: <a href="https://github.com/Yorrissiagian" target="_blank">github.com/Yorrissiagian</a></li>
-</ul>
-
-<blockquote>
-  Terakhir diperbarui: {{ "now" | date: "%d %B %Y" }}
-</blockquote>
+</body>
+</html>
