@@ -186,7 +186,6 @@
   <p><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" class="button" target="_blank">🔗 Lihat Proyek Lengkap di GitHub</a></p>
   <p>Sistem klasifikasi 31 kelas daun tanaman (sehat dan sakit) berbasis MobileNetV1, di-deploy via Streamlit.</p>
   <p><strong>Peran:</strong> Lead tim, tuning model, deployment.</p>
-  <span class="badge">Agritech</span></p>
   <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Coba Demo Aplikasinya</a></p>
   <div class="image-block">
     <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1">
@@ -224,7 +223,7 @@
     <p class="caption">Form interaktif prediksi status mahasiswa berdasarkan input data.</p>
   </div>
   <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a></p>
-  <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>
+  <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>  <span class="badge">Agritech</span></p>
 
 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
