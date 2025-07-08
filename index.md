@@ -27,15 +27,14 @@
   }
 
   .button {
-    display: inline-block;
-    background-color: #64b5f6;
-    color: #121212;
-    padding: 10px 18px;
-    border-radius: 8px;
-    font-weight: bold;
-    transition: background-color 0.2s ease;
-  }
-
+  display: inline-block;
+  background-color: #64b5f6;
+  color: #ffffff; /* ← ganti ini */
+  padding: 10px 18px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: background-color 0.2s ease;
+}
   .button:hover {
     background-color: #42a5f5;
     color: #ffffff;
@@ -65,7 +64,7 @@
   }
 
   .image-block img {
-  max-width: 60%; 
+  max-width: 70%; 
   height: auto;   
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.2);
