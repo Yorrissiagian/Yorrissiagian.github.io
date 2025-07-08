@@ -190,11 +190,11 @@
   <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span> <span class="badge">Agritech</span></p>
   <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Coba Demo Aplikasinya</a></p>
   <div class="image-block">
-    <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1" style="max-width:60%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1">
     <p class="caption">Confusion matrix 31 kelas daun, akurasi & F1-score 82%. Beberapa kelas mirip masih tertukar.</p>
   </div>
   <div class="image-block">
-    <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman" style="max-width:60%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman">
     <p class="caption">Tampilan aplikasi Streamlit: upload gambar daun, hasil klasifikasi muncul langsung.</p>
   </div>
 </div>
@@ -208,7 +208,7 @@
   <h4>📊 Dashboard</h4>
   <p>Visualisasi distribusi dropout berdasar gender, usia, beasiswa, dan ekonomi.</p>
   <div class="image-block">
-    <img src="Asset/jayainstitut_dashboard.jpg" alt="Dashboard Dropout Mahasiswa" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <img src="Asset/jayainstitut_dashboard.jpg" alt="Dashboard Dropout Mahasiswa">
     <p class="caption">Dashboard Metabase menampilkan insight penting terkait dropout.</p>
   </div>
   <h4>🧠 Prediksi Model</h4>
@@ -220,7 +220,7 @@
   <h4>🖥 Aplikasi Streamlit</h4>
   <p>Form input mahasiswa untuk prediksi dropout secara langsung.</p>
   <div class="image-block">
-    <img src="Asset/streamlit_JayaInstitut.png" alt="Streamlit Prediksi Dropout" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <img src="Asset/streamlit_JayaInstitut.png" alt="Streamlit Prediksi Dropout">
     <p class="caption">Form interaktif prediksi status mahasiswa berdasarkan input data.</p>
   </div>
   <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a></p>
@@ -265,7 +265,7 @@
   <p><strong>Model Disimpan:</strong> logistic_attrition_model.pkl (class-balanced version)</p>
 
   <p><strong>Visualisasi Dashboard Metabase:</strong></p>
-  <img src="Asset/Metabase.png" alt="Visualisasi Dashboard Metabase - Attrition Analysis" style="max-width:100%; border: 1px solid #ccc; border-radius: 8px; margin-top: 1rem;" />
+  <img src="Asset/Metabase.png" alt="Visualisasi Dashboard Metabase - Attrition Analysis"/>
   <p style="font-size: 0.9rem; margin-top: 0.5rem;">
     Visual ini menampilkan ringkasan attrition rate perusahaan, distribusi berdasarkan lembur, masa kerja, promosi terakhir, dan departemen. 
     Tujuannya adalah memberi wawasan cepat dan actionable kepada tim HR melalui tampilan interaktif berbasis Metabase.
@@ -298,8 +298,7 @@
   </ul>
 
   <div class="image-block">
-    <img src="Asset/training_validation_plot.png" alt="Training vs Validation Accuracy and Loss"
-      style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <img src="Asset/training_validation_plot.png" alt="Training vs Validation Accuracy and Loss">
     <p class="caption">
       <strong>Learning Curve:</strong> Menunjukkan bahwa model tidak overfitting dan berhasil belajar dari data secara konsisten.
     </p>
