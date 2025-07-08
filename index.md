@@ -1,135 +1,37 @@
-<style>
-  body {
-    background-color: #121212;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
-    color: #e0e0e0;
-    margin: 0;
-    padding: 1rem;
-    line-height: 1.6;
-  }
-
-  .container {
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: 2rem;
-  }
-
-  h1, h2 {
-    text-align: center;
-    color: #64b5f6;
-  }
-
-  .profile-photo {
-    display: flex;
-    justify-content: center;
-    margin: 2rem 0;
-  }
-
-  .profile-photo img {
-    width: 160px;
-    height: 160px;
-    border-radius: 50%;
-    object-fit: cover;
-    border: 4px solid #0288d1;
-    box-shadow: 0 0 10px rgba(2,136,209,0.4);
-  }
-
-  .project {
-    border: 1px solid #333;
-    border-radius: 12px;
-    padding: 1.5rem;
-    margin: 1.5rem 0;
-    background: #1e1e1e;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.4);
-  }
-
-  .project h3 {
-    margin-top: 0;
-    color: #90caf9;
-  }
-
-  .project p {
-    margin-bottom: 0.5rem;
-  }
-
-  .project .subtitle {
-    font-weight: bold;
-    color: #81d4fa;
-    margin-bottom: 0.7rem;
-  }
-
-  .badge {
-    display: inline-block;
-    padding: 0.35em 0.7em;
-    margin: 0.2em 0.2em 0 0;
-    font-size: 0.8em;
-    background: #0288d1;
-    color: white;
-    border-radius: 10px;
-  }
-
-  .grid-2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
-  }
-
-  .image-block {
-    text-align: center;
-  }
-
-  .caption {
-    font-size: 0.9rem;
-    color: #b0bec5;
-    margin-top: 0.5rem;
-  }
-
-  a {
-    color: #4fc3f7;
-    text-decoration: none;
-  }
-
-  a:hover {
-    text-decoration: underline;
-  }
-
-  .button {
-    display: inline-block;
-    background-color: #1e88e5;
-    color: white;
-    padding: 8px 16px;
-    border-radius: 6px;
-    text-decoration: none;
-    font-weight: bold;
-    transition: background 0.3s ease;
-  }
-
-  .button:hover {
-    background-color: #1565c0;
-  }
-
-  @media (max-width: 768px) {
-    .grid-2 {
-      grid-template-columns: 1fr;
-    }
-  }
-</style>
-
-<h1>👋 Halo! Saya Yorrissiagian</h1>
+<h1>👋 Halo! Saya Yorris Siagian</h1>
 <div class="profile-photo">
-  <img src="{{ '/yoris.jpg' | relative_url }}" alt="Foto Profil Yorrissiagian">
+  <img src="{{ '/yoris.jpg' | relative_url }}" alt="Foto Profil Yorris Siagian">
 </div>
-
-<p>Fresh graduate yang fokus pada pengembangan sistem AI & Machine Learning end-to-end. Berikut adalah kumpulan proyek yang pernah saya kerjakan.</p>
 
 <h2>💼 Tentang Saya</h2>
 <blockquote>
-  Lulusan Teknik Informatika dari Universitas Medan Area dengan minat kuat dalam membangun solusi AI yang berdampak.<br>
-  Fokus: Data preprocessing, modeling, deployment & monitoring model ML.<br>
-  Tools favorit: Python, scikit-learn, TensorFlow, Streamlit, MLflow, Prometheus, Metabase, Docker.
+  Saya adalah lulusan Teknik Informatika dari Universitas Medan Area. Saya memiliki minat yang besar dalam membangun sistem AI dan Machine Learning dari awal hingga tahap implementasi. Fokus saya meliputi pemahaman data, pembuatan model, deployment, hingga monitoring performa model di lingkungan produksi.
 </blockquote>
 
+<h2>🧰 Tools Favorit</h2>
+<ul>
+  <li>Python</li>
+  <li>scikit-learn</li>
+  <li>TensorFlow</li>
+  <li>Streamlit</li>
+  <li>MLflow</li>
+  <li>Metabase</li>
+  <li>Prometheus</li>
+  <li>Docker</li>
+</ul>
+
+<h2>👨‍💼 Pengalaman Kerja</h2>
+<ul>
+  <li><strong>Machine Learning Intern – Laskar AI x Dicoding (2024)</strong><br> 
+      Bekerja dalam proyek-proyek nyata terkait klasifikasi gambar, NLP, deployment model dan visualisasi metrik bisnis berbasis data.</li>
+</ul>
+
+<h2>🎓 Riwayat Pendidikan</h2>
+<ul>
+  <li><strong>Universitas Medan Area</strong> – S1 Teknik Informatika (2020–2024)</li>
+</ul>
+
+<h2>🚀 Proyek Saya</h2>
 <h2>🚀 Proyek Saya</h2>
 
 <!-- Semua proyek ditampilkan di bawah -->
