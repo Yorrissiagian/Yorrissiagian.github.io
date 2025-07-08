@@ -195,7 +195,7 @@
     <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman">
     <p class="caption">Tampilan aplikasi Streamlit: upload gambar daun, hasil klasifikasi muncul langsung.</p>
   </div>
-  <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span> 
+  <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span><span class="badge">Agritech</span></p> 
 
 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
@@ -222,7 +222,7 @@
     <p class="caption">Form interaktif prediksi status mahasiswa berdasarkan input data.</p>
   </div>
   <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a></p>
-  <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>  <span class="badge">Agritech</span></p>
+  <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>
 
 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
