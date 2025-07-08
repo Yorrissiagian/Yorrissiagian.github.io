@@ -236,9 +236,8 @@
     </a>
   </p>
   <p>
-    Proyek akhir dari kelas <strong>Belajar Penerapan Data Science</strong> yang diselenggarakan oleh <strong>Laskar AI x Dicoding</strong>. 
-    Proyek ini berfokus pada analisis penyebab tingginya <em>attrition</em> (>12%) di perusahaan fiktif Jaya Jaya Maju, menggunakan pendekatan 
-    <strong>Logistic Regression</strong> dan visualisasi interaktif via <strong>Metabase</strong>.
+    Proyek akhir kelas <strong>Belajar Penerapan Data Science</strong> oleh <strong>Laskar AI x Dicoding</strong>, menganalisis penyebab <em>attrition</em> (>12%) di Jaya Jaya Maju dengan <strong>Logistic Regression</strong> dan visualisasi interaktif di <strong>Metabase</strong>.
+
   </p>
   <p><strong>Peran:</strong> Exploratory Data Analysis, pemodelan, dan visualisasi bisnis.</p>
   <p>
@@ -248,19 +247,12 @@
   </p>
 
   <p><strong>Fitur Utama:</strong></p>
-  <ul>
-    <li>Melakukan <em>exploratory data analysis</em> untuk mengidentifikasi pola attrition berdasarkan lembur, promosi terakhir, dan masa kerja.</li>
-    <li>Mengembangkan dua model Logistic Regression (default & class-balanced) untuk membandingkan trade-off antara akurasi dan recall.</li>
-    <li>Model seimbang dipilih karena meningkatkan <strong>recall dari 50% menjadi 72%</strong>, penting untuk mendeteksi risiko keluar lebih akurat.</li>
-    <li>Dashboard Metabase menampilkan metrik kunci seperti attrition per departemen, dampak lembur, dan tren promosi.</li>
-  </ul>
+  <p>Proyek ini menganalisis pola attrition berdasarkan lembur, promosi, dan masa kerja. Dua model Logistic Regression dibangun; model seimbang dipilih karena meningkatkan recall dari 50% ke 72%. Hasilnya divisualisasikan lewat dashboard Metabase yang menyoroti attrition per departemen, dampak lembur, dan tren promosi.
+</p>
 
   <p><strong>Hasil Insight:</strong></p>
-  <ul>
-    <li><strong>Lembur (OverTime)</strong> dan <strong>tidak adanya promosi dalam 0–2 tahun terakhir</strong> menjadi dua penyebab utama tingginya attrition.</li>
-    <li>Departemen <strong>Sales</strong> menunjukkan attrition tertinggi (~22%) dibandingkan departemen lain.</li>
-    <li>Rekomendasi mencakup pengurangan beban kerja lembur dan program promosi terjadwal.</li>
-  </ul>
+  <p>Lembur dan kurangnya promosi dalam 0–2 tahun terakhir jadi faktor utama attrition. Departemen Sales mencatat attrition tertinggi (\~22%). Disarankan pengurangan beban lembur dan penerapan program promosi terjadwal.
+</p>
 
   <p><strong>Model Disimpan:</strong> logistic_attrition_model.pkl (class-balanced version)</p>
 
@@ -283,9 +275,7 @@
     </a>
   </p>
   <p>
-    Proyek akhir dari kelas <strong>Belajar Fundamental Deep Learning</strong> yang membangun model CNN untuk mengklasifikasikan 10 jenis penyakit daun tomat. 
-    Dataset berisi 10.000 gambar yang dibagi dalam train, validation, dan test. 
-    Augmentasi digunakan untuk meningkatkan generalisasi model.
+    Proyek akhir kelas <strong>Belajar Fundamental Deep Learning</strong> dengan model CNN untuk klasifikasi 10 penyakit daun tomat. Dataset berisi 10.000 gambar yang dibagi menjadi train, validation, dan test, dengan augmentasi untuk meningkatkan generalisasi.
   </p>
   <p>
     Arsitektur model terdiri dari 3 blok Conv2D + MaxPooling, diikuti Dense layer dan Dropout. 
@@ -334,19 +324,14 @@
   </ul>
 
   <h4>📁 Dataset</h4>
-  <ul>
-    <li>Jumlah gambar: 203 (102 autis, 101 normal)</li>
-    <li>Format: .jpg | Sumber: Bundaku Autism Clinic Center</li>
-    <li>Rasio split: 80% pelatihan, 20% pengujian</li>
-  </ul>
+  <p>
+    Dataset berisi 203 gambar (.jpg) dari Bundaku Autism Clinic Center, terdiri dari 102 gambar autis dan 101 normal, dengan rasio split 80% untuk pelatihan dan 20% untuk pengujian.
+  </p>
 
   <h4>⚙️ Metodologi</h4>
-  <ul>
-    <li>Preprocessing: konversi gambar ke grayscale</li>
-    <li>Ekstraksi fitur wajah menggunakan <strong>SURF</strong></li>
-    <li>Pelatihan lima model Boosting: AdaBoost, GradientBoost, LightGBM, CatBoost, dan XGBoost</li>
-    <li>Evaluasi menggunakan metrik: Accuracy, Precision, Recall, F1-Score, dan F2-Score</li>
-  </ul>
+  <p>
+    Gambar dikonversi ke grayscale dan fitur wajah diekstraksi dengan <strong>SURF</strong>. Lima model Boosting dilatih: AdaBoost, GradientBoost, LightGBM, CatBoost, dan XGBoost. Evaluasi dilakukan dengan metrik Accuracy, Precision, Recall, F1-Score, dan F2-Score.
+  </p>
 
   <h4>📊 Hasil Evaluasi</h4>
   <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
@@ -406,9 +391,7 @@
 
   <h4>📌 Kesimpulan</h4>
   <p>
-    Proyek ini menunjukkan bahwa kombinasi metode <strong>SURF + Boosting</strong> mampu membedakan wajah anak autis dan wajah normal secara efektif. 
-    Algoritma <strong>CatBoost</strong> menjadi yang paling akurat dengan nilai F1-score dan F2-score di atas 80%.
-    Studi ini membuka peluang untuk pengembangan sistem diagnosis awal berbasis pengenalan wajah anak.
+    Proyek ini membuktikan bahwa kombinasi <strong>SURF + Boosting</strong> efektif membedakan wajah anak autis dan normal. <strong>CatBoost</strong> menjadi model terbaik dengan F1 dan F2-score di atas 80%. Hasil ini membuka peluang pengembangan sistem diagnosis dini berbasis wajah.
   </p>
 
   <p>
@@ -430,23 +413,17 @@
     </a>
   </p>
   <p>
-    Submission proyek kelas <strong>"Belajar Fundamental Deep Learning"</strong> yang berfokus pada analisis sentimen terhadap review aplikasi Gojek dari Google Play Store. 
-    Proyek ini mencakup scraping, preprocessing teks, labeling sentimen berbasis lexicon, visualisasi, dan klasifikasi menggunakan <strong>MLPClassifier</strong>.
+    Submission proyek kelas <strong>"Belajar Fundamental Deep Learning"</strong> ini menganalisis sentimen review aplikasi Gojek dari Google Play Store. Proyek mencakup scraping, preprocessing, pelabelan sentimen berbasis lexicon, visualisasi, dan klasifikasi dengan <strong>MLPClassifier</strong>.
   </p>
-
-  <ul>
-    <li>Scraping 10.000 review aplikasi com.gojek.app menggunakan <strong>google-play-scraper</strong></li>
-    <li>Preprocessing teks: slang correction, tokenization, stopword removal, stemming</li>
-    <li>Labeling sentimen berbasis <strong>lexicon-positive</strong> dan <strong>lexicon-negative</strong></li>
-    <li>Model klasifikasi: <strong>MLPClassifier</strong> dengan akurasi testing 92.14%</li>
-  </ul>
+  <p>
+    Scraping 10.000 review aplikasi Gojek dilakukan dengan <strong>google-play-scraper</strong>. Teks diproses melalui slang correction, tokenisasi, stopword removal, dan stemming. Sentimen dilabeli menggunakan lexicon positif-negatif. Model <strong>MLPClassifier</strong> digunakan dengan akurasi pengujian sebesar 92,14%.
+  </p>
 
   <div class="image-block">
     <img src="Asset/Sentiment Polarity Data.png" alt="Distribusi Sentimen Review Gojek"
       style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
     <p class="caption">
-      <strong>Distribusi Sentimen:</strong> Pie chart menunjukkan bahwa sebagian besar review bernada positif, dengan proporsi signifikan dari review negatif. 
-      Ini menjadi dasar evaluasi performa model klasifikasi selanjutnya.
+      <strong>Distribusi Sentimen:</strong> Pie chart menunjukkan mayoritas review bernada positif, diikuti proporsi signifikan review negatif, yang menjadi dasar evaluasi performa model klasifikasi.
     </p>
   </div>
 
@@ -478,9 +455,7 @@ weighted avg       0.92      0.92      0.92      6437
 
   <h4>📌 Hasil & Insight</h4>
   <p>
-    Dataset review Gojek berhasil dikumpulkan dan diproses menggunakan pipeline teks lengkap. Labeling berbasis lexicon memberikan dasar yang kuat untuk supervised learning.
-    WordCloud memperlihatkan kata-kata kunci pengguna, dan model <strong>MLPClassifier</strong> berhasil mengklasifikasikan review dengan akurasi tinggi. 
-    Hal ini menunjukkan bahwa pendekatan sederhana namun terstruktur dapat menghasilkan model NLP yang <strong>efektif dan dapat diandalkan</strong>.
+    Dataset review Gojek diproses dengan pipeline teks dan labeling lexicon. WordCloud mengungkap kata kunci pengguna, sementara <strong>MLPClassifier</strong> mencapai akurasi tinggi, menunjukkan pendekatan sederhana bisa menghasilkan model NLP yang <strong>efektif dan andal</strong>.
   </p>
 
   <p>
@@ -508,19 +483,14 @@ weighted avg       0.92      0.92      0.92      6437
 
   <!-- 🔷 Clustering -->
   <h4>🔷 Clustering: Segmentasi Masyarakat Berdasarkan Pengeluaran</h4>
-  <ul>
-    <li>Algoritma: KMeans (3 klaster) dengan PowerTransformer</li>
-    <li>Evaluasi jumlah cluster menggunakan Inertia & Silhouette Score</li>
-    <li>Analisis distribusi pengeluaran untuk mengidentifikasi skewness & outlier</li>
-    <li>Segmentasi masyarakat berdasarkan pola pengeluaran tahunan</li>
-  </ul>
+  <p>
+    Menggunakan KMeans (3 klaster) dengan PowerTransformer, jumlah klaster dievaluasi via Inertia dan Silhouette Score. Analisis distribusi pengeluaran dilakukan untuk mengidentifikasi skewness dan outlier, lalu masyarakat disegmentasi berdasarkan pola pengeluaran tahunan.
+  </p>
 
   <div class="image-block">
     <img src="Asset/Distribusi Pengeluaran.png" alt="Distribusi Pengeluaran" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
     <p class="caption">
-      <strong>Distribusi Pengeluaran:</strong> Histogram ini menunjukkan bahwa sebagian besar masyarakat memiliki
-      pengeluaran rendah, dengan kehadiran outlier yang signifikan. Visual ini mendasari keputusan untuk melakukan
-      transformasi data sebelum clustering.
+      <strong>Distribusi Pengeluaran:</strong> Histogram menunjukkan mayoritas masyarakat berpengeluaran rendah dengan outlier signifikan, sehingga diperlukan transformasi data sebelum clustering.
     </p>
   </div>
 
@@ -534,12 +504,9 @@ weighted avg       0.92      0.92      0.92      6437
 
   <!-- 🔶 Klasifikasi -->
   <h4>🔶 Klasifikasi: Prediksi Segmentasi Masyarakat</h4>
-  <ul>
-    <li>Model: Logistic Regression & KNN</li>
-    <li>Evaluasi akurasi dan F1-score mencapai >99%</li>
-    <li>Hyperparameter tuning: GridSearchCV & RandomizedSearchCV</li>
-    <li>Visualisasi: Confusion matrix dan learning curve untuk analisis performa</li>
-  </ul>
+  <p>
+    Menggunakan model Logistic Regression dan KNN, evaluasi menunjukkan akurasi dan F1-score >99%. Hyperparameter tuning dilakukan dengan GridSearchCV dan RandomizedSearchCV, disertai visualisasi confusion matrix dan learning curve untuk analisis performa.
+  </p>
 
   <div class="grid-2">
     <div class="image-block">
@@ -575,22 +542,13 @@ weighted avg       0.92      0.92      0.92      6437
   <h4>📌 Hasil & Kesimpulan</h4>
   <div class="conclusion" style="line-height: 1.7; font-size: 1rem; rgba(0,0,0,0.15);">
     <p>
-      Proyek ini berhasil melakukan segmentasi terhadap masyarakat Indonesia berdasarkan pola pengeluaran tahunan menggunakan algoritma
-      <strong>KMeans clustering</strong>. Analisis dan visualisasi evaluasi menunjukkan bahwa
-      <strong>3 klaster</strong> merupakan jumlah optimal, masing-masing dengan karakteristik pengeluaran yang berbeda-beda.
-      Preprocessing menggunakan <strong>PowerTransformer</strong> berhasil menormalkan distribusi data yang awalnya sangat skewed.
+      Proyek ini menggunakan <strong>KMeans</strong> untuk segmentasi masyarakat berdasarkan pengeluaran tahunan. Tiga klaster terbukti optimal, dan <strong>PowerTransformer</strong> berhasil menormalkan data yang awalnya skewed.
     </p>
     <p>
-      Hasil klaster kemudian digunakan sebagai label target dalam proses klasifikasi.
-      Dua model utama, yaitu <strong>Logistic Regression</strong> dan <strong>K-Nearest Neighbors (KNN)</strong>,
-      berhasil dibangun dengan hasil yang sangat baik. Evaluasi model menunjukkan
-      <strong>F1-score di atas 99%</strong>, serta confusion matrix yang mendekati sempurna untuk seluruh kelas.
+      Hasil klaster digunakan sebagai label untuk klasifikasi. Dua model—<strong>Logistic Regression</strong> dan <strong>KNN</strong>—dibangun dengan <strong>F1-score >99%</strong> dan confusion matrix nyaris sempurna di semua kelas.
     </p>
     <p>
-      Selain itu, <strong>learning curve</strong> dari kedua model menunjukkan performa yang stabil
-      dan tidak terjadi overfitting maupun underfitting yang signifikan. Hal ini menandakan bahwa
-      pipeline machine learning yang dibangun—dari tahap eksplorasi, preprocessing, segmentasi, hingga klasifikasi—
-      telah berjalan efektif dan menghasilkan sistem prediksi yang <strong>akurat, stabil, dan dapat direproduksi</strong>.
+      Selain itu, <strong>learning curve</strong> menunjukkan performa stabil tanpa overfitting atau underfitting. Ini menandakan pipeline machine learning yang dibangun efektif, akurat, stabil, dan dapat direproduksi.
     </p>
   </div>
   <p>
