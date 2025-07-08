@@ -29,7 +29,7 @@
   .button {
   display: inline-block;
   background-color: #64b5f6;
-  color: #ffffff; /* ← ganti ini */
+  color: #ffffff;
   padding: 10px 18px;
   border-radius: 8px;
   font-weight: bold;
@@ -43,12 +43,13 @@
   .badge {
     display: inline-block;
     background-color: #64b5f6;
-    color: #121212;
+    color: #ffffff;
     padding: 6px 10px;
     border-radius: 5px;
     font-size: 0.9rem;
     margin-right: 6px;
     margin-bottom: 6px;
+     font-weight: bold;
   }
 
   .project {
@@ -123,7 +124,6 @@
     margin: 3rem 0;
   }
 
-  /* ✅ Tambahan untuk foto profil */
   .profile-container {
     text-align: center;
     margin-bottom: 3rem;
@@ -186,7 +186,7 @@
   <p><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" class="button" target="_blank">🔗 Lihat Proyek Lengkap di GitHub</a></p>
   <p>Sistem klasifikasi 31 kelas daun tanaman (sehat dan sakit) berbasis MobileNetV1, di-deploy via Streamlit.</p>
   <p><strong>Peran:</strong> Lead tim, tuning model, deployment.</p>
-  <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span> <span class="badge">Agritech</span></p>
+  <span class="badge">Agritech</span></p>
   <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Coba Demo Aplikasinya</a></p>
   <div class="image-block">
     <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1">
@@ -196,6 +196,7 @@
     <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman">
     <p class="caption">Tampilan aplikasi Streamlit: upload gambar daun, hasil klasifikasi muncul langsung.</p>
   </div>
+  <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span> 
 </div>
 
 🎓 Prediksi Dropout Mahasiswa
