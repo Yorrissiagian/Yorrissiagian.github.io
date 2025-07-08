@@ -65,10 +65,14 @@
   }
 
   .image-block img {
-    max-width: 100%;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.2);
-  }
+  max-width: 80%; /* ubah dari 100% jadi 80% */
+  height: auto;   /* agar proporsional */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
 
   .caption {
     font-size: 0.95rem;
