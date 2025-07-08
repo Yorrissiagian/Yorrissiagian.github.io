@@ -190,11 +190,11 @@
   <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span> <span class="badge">Agritech</span></p>
   <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Coba Demo Aplikasinya</a></p>
   <div class="image-block">
-    <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1" style="max-width:60%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
     <p class="caption">Confusion matrix 31 kelas daun, akurasi & F1-score 82%. Beberapa kelas mirip masih tertukar.</p>
   </div>
   <div class="image-block">
-    <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman" style="max-width:60%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
     <p class="caption">Tampilan aplikasi Streamlit: upload gambar daun, hasil klasifikasi muncul langsung.</p>
   </div>
 </div>
