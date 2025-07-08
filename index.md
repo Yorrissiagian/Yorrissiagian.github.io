@@ -138,7 +138,6 @@
 
 </head>
 <body>
-<h1>👋 Halo! Saya Yorris Siagian</h1>
 <div class="profile-container">
   <img src="{{ '/yoris.jpg' | relative_url }}" alt="Foto Profil Yorris Siagian">
   <h1>Yorris Siagian</h1>
@@ -174,132 +173,55 @@
 </ul>
 
 <h2>🚀 Proyek Saya</h2>
+
 <!-- Semua proyek ditampilkan di bawah -->
 
 ### 🌾 Deteksi Penyakit Tanaman Pertanian
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Deteksi Penyakit Tanaman</h3>
-
-  <p>
-    <a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" class="button" target="_blank">
-      🔗 Lihat Proyek Lengkap di GitHub
-    </a>
-  </p>
-
-  <p>
-    <strong>Proyek ini merupakan Capstone Project dari program Laskar AI</strong>, yang berfokus pada penerapan deep learning di sektor pertanian. Tujuan utamanya adalah membangun sistem deteksi otomatis penyakit daun tanaman berbasis gambar, untuk lima komoditas utama: <em>tomat, cabai, kentang, terong, dan labu</em>.
-  </p>
-
-  <p>
-    Sistem ini dilatih untuk mengenali 31 kelas berbeda — mencakup berbagai jenis penyakit dan juga kondisi daun sehat. Model inti yang digunakan adalah <strong>MobileNetV1</strong>, dipilih karena bobotnya yang ringan namun akurat, sehingga ideal untuk kebutuhan deteksi cepat di perangkat terbatas.
-  </p>
-
-  <p><strong>Peran saya:</strong> Pemimpin tim, bertanggung jawab atas pengujian model, tuning hyperparameter, dan deployment ke Streamlit Cloud.</p>
-
-  <p>
-    <span class="badge">Image Classification</span>
-    <span class="badge">MobileNetV1</span>
-    <span class="badge">Streamlit</span>
-    <span class="badge">Transfer Learning</span>
-    <span class="badge">Agritech</span>
-  </p>
-
-  <p>
-    <a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Coba Demo Aplikasinya</a>
-  </p>
-
+  <p><a href="https://github.com/Capstone-LAI25-SM015/Capstone_Project_LAI25" class="button" target="_blank">🔗 Lihat Proyek Lengkap di GitHub</a></p>
+  <p>Sistem klasifikasi 31 kelas daun tanaman (sehat dan sakit) berbasis MobileNetV1, di-deploy via Streamlit.</p>
+  <p><strong>Peran:</strong> Lead tim, tuning model, deployment.</p>
+  <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span> <span class="badge">Agritech</span></p>
+  <p><a href="https://deteksipenyakittanaman.streamlit.app/" target="_blank">🔗 Coba Demo Aplikasinya</a></p>
   <div class="image-block">
-    <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1"
-         style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
-    <p class="caption">
-      <strong>Analisis Confusion Matrix:</strong><br>
-      Confusion matrix ini menunjukkan performa model terhadap 31 kelas penyakit daun. <strong>Akurasi keseluruhan mencapai 82%</strong> dengan macro average F1-score sebesar 82%. Pola diagonal menunjukkan bahwa sebagian besar prediksi sesuai target. Namun, beberapa kelas seperti penyakit daun yang memiliki visual mirip—contohnya <em>mosaic</em> dan <em>leaf curl</em>—masih sering tertukar. Analisis ini kami gunakan sebagai dasar perbaikan preprocessing dan augmentasi untuk meningkatkan kemampuan generalisasi model ke data dunia nyata.
-    </p>
+    <img src="Asset/Confusion matrix_mobilenet.png" alt="Confusion Matrix MobileNetV1" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">Confusion matrix 31 kelas daun, akurasi & F1-score 82%. Beberapa kelas mirip masih tertukar.</p>
   </div>
-
   <div class="image-block">
-    <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman"
-         style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
-    <p class="caption">
-      <strong>Tampilan Aplikasi Streamlit:</strong><br>
-      Aplikasi ini dirancang agar mudah digunakan oleh petani dan masyarakat umum. Cukup unggah foto daun yang ingin didiagnosa, sistem akan secara otomatis mengklasifikasikan jenis penyakit atau menyatakan bahwa daun tersebut sehat. Hasil prediksi disertai persentase akurasi dan notifikasi peringatan dini jika ditemukan penyakit. Aplikasi ini bertujuan untuk membantu petani mengambil tindakan cepat—seperti menyemprot fungisida atau berkonsultasi dengan penyuluh pertanian—sebelum penyakit menyebar dan menyebabkan kerugian panen.
-    </p>
+    <img src="Asset/streamlit_deteksi_penyakit_tanaman.jpeg" alt="Streamlit Deteksi Penyakit Tanaman" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
+    <p class="caption">Tampilan aplikasi Streamlit: upload gambar daun, hasil klasifikasi muncul langsung.</p>
   </div>
-
 </div>
-
 
 ### 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
-  <div class="subtitle">Laskar AI x Dicoding — Proyek Akhir Kelas Belajar Penerapan Data Science</div>
+  <div class="subtitle">Laskar AI x Dicoding</div>
   <h3>Prediksi Dropout Mahasiswa</h3>
-  <p>
-    <a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" class="button" target="_blank">
-      🔗 Lihat Proyek Lengkap di GitHub
-    </a>
-  </p>
-  <p>
-    Proyek ini bertujuan untuk memprediksi risiko dropout mahasiswa Jaya Jaya Institut berdasarkan faktor akademik, demografis, dan finansial. Model machine learning yang digunakan adalah <strong>Random Forest Classifier</strong> dengan pipeline lengkap untuk preprocessing, evaluasi, dan deployment.
-  </p>
-
-  <h4>📊 Business Dashboard</h4>
-  <p>Dashboard interaktif dibangun dengan Metabase dan menampilkan:</p>
-  <ul>
-    <li><strong>Distribusi Dropout vs Lulus:</strong> 39.1% mahasiswa tercatat dropout dari total 3.630.</li>
-    <li><strong>Dropout Berdasarkan Gender:</strong> Visualisasi perbandingan jumlah dropout laki-laki dan perempuan.</li>
-    <li><strong>Nilai Akademik dan Unit Lulus:</strong> Perbandingan nilai rata-rata masuk, unit lulus, dan IPK akhir antara mahasiswa dropout dan graduate.</li>
-    <li><strong>Distribusi Usia Masuk Mahasiswa:</strong> Dropout didominasi oleh usia <em>early twenties</em>.</li>
-    <li><strong>Faktor Ekonomi:</strong> Mahasiswa dengan tunggakan dan tanpa beasiswa memiliki risiko dropout tertinggi.</li>
-  </ul>
+  <p><a href="https://github.com/Yorrissiagian/Prediksi-Dropout-Mahasiswa" class="button" target="_blank">🔗 Lihat Proyek Lengkap di GitHub</a></p>
+  <p>Prediksi risiko dropout menggunakan Random Forest, dashboard Metabase, dan aplikasi Streamlit.</p>
+  <h4>📊 Dashboard</h4>
+  <p>Visualisasi distribusi dropout berdasar gender, usia, beasiswa, dan ekonomi.</p>
   <div class="image-block">
     <img src="Asset/jayainstitut_dashboard.jpg" alt="Dashboard Dropout Mahasiswa" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
-    <p class="caption">
-      Dashboard Metabase menampilkan metrik penting seperti rasio dropout, distribusi berdasarkan gender dan usia, serta pengaruh faktor ekonomi.
-    </p>
+    <p class="caption">Dashboard Metabase menampilkan insight penting terkait dropout.</p>
   </div>
-
   <h4>🧠 Prediksi Model</h4>
-  <p>Model dibangun dengan <strong>Random Forest</strong> dan mencapai performa sebagai berikut:</p>
   <ul>
-    <li><strong>Akurasi:</strong> 91.87%</li>
-    <li><strong>F1-Score (Dropout):</strong> 0.89</li>
-    <li><strong>Precision:</strong> 0.95</li>
-    <li><strong>Recall:</strong> 0.84</li>
+    <li>Akurasi: 91.87%</li>
+    <li>F1-score dropout: 0.89</li>
   </ul>
-  <p>Fitur paling berpengaruh terhadap prediksi dropout:</p>
-  <ol>
-    <li>Status keterlambatan pembayaran (tuition fees)</li>
-    <li>Status beasiswa</li>
-    <li>Status utang (debtor)</li>
-    <li>Usia saat mendaftar</li>
-    <li>Nilai masuk (admission grade)</li>
-  </ol>
-
+  <p>Fitur penting: tunggakan, beasiswa, usia masuk, nilai masuk.</p>
   <h4>🖥 Aplikasi Streamlit</h4>
-  <p>
-    Aplikasi prediksi dibuat dengan Streamlit dan dapat digunakan oleh staf kampus untuk menguji risiko dropout berdasarkan data input mahasiswa. Sistem akan menampilkan status prediksi (DROPOUT / GRADUATE) secara instan.
-  </p>
+  <p>Form input mahasiswa untuk prediksi dropout secara langsung.</p>
   <div class="image-block">
     <img src="Asset/streamlit_JayaInstitut.png" alt="Streamlit Prediksi Dropout" style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
-    <p class="caption">
-      Form interaktif yang memungkinkan pengguna memasukkan data mahasiswa dan langsung melihat prediksi dropout.
-    </p>
+    <p class="caption">Form interaktif prediksi status mahasiswa berdasarkan input data.</p>
   </div>
-  <p>
-    <a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a>
-  </p>
-
-  <p>
-    <span class="badge">Classification</span>
-    <span class="badge">Metabase</span>
-    <span class="badge">Streamlit</span>
-    <span class="badge">Random Forest</span>
-    <span class="badge">Data Science</span>
-  </p>
+  <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a></p>
+  <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>
 </div>
-
-
 ### 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
