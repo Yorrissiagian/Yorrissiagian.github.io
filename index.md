@@ -18,7 +18,7 @@
   }
 
   a {
-    color: #64b5f6;
+    color: #ffffff;
     text-decoration: none;
   }
 
@@ -567,6 +567,3 @@ weighted avg       0.92      0.92      0.92      6437
     <li><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/yorrissiagian" target="_blank">linkedin.com/in/yorrissiagian</a></li>
     <li><strong>GitHub:</strong> <a href="https://github.com/Yorrissiagian" target="_blank">github.com/Yorrissiagian</a></li>
   </ul>
-
-</body>
-</html>
