@@ -26,15 +26,17 @@
     text-decoration: underline;
   }
 
-  .button {
+  .button, .button:visited {
   display: inline-block;
   background-color: #64b5f6;
-  color: #ffffff;
+  color: #ffffff !important;
   padding: 10px 18px;
   border-radius: 8px;
   font-weight: bold;
   transition: background-color 0.2s ease;
+  text-decoration: none;
 }
+
   .button:hover {
     background-color: #42a5f5;
     color: #ffffff;
