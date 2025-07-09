@@ -552,8 +552,6 @@ weighted avg       0.92      0.92      0.92      6437
     <span class="badge">Tuning</span>
   </p>
 </div>
-
-<hr>
   <hr>
   <h2>📣 Kontak Saya</h2>
   <ul>
