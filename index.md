@@ -235,16 +235,15 @@
     </a>
   </p>
   <p>
-    Proyek akhir kelas <strong>Belajar Penerapan Data Science</strong> oleh <strong>Laskar AI x Dicoding</strong>, menganalisis penyebab <em>attrition</em> (>12%) di Jaya Jaya Maju dengan <strong>Logistic Regression</strong> dan visualisasi interaktif di <strong>Metabase</strong>.
-
-  </p>
-
-  <p><strong>Fitur Utama:</strong></p>
-  <p>Proyek ini menganalisis pola attrition berdasarkan lembur, promosi, dan masa kerja. Dua model Logistic Regression dibangun; model seimbang dipilih karena meningkatkan recall dari 50% ke 72%. Hasilnya divisualisasikan lewat dashboard Metabase yang menyoroti attrition per departemen, dampak lembur, dan tren promosi.
+  Proyek akhir <strong>Belajar Penerapan Data Science</strong> oleh <strong>Laskar AI x Dicoding</strong> menganalisis attrition (>12%) di Jaya Jaya Maju menggunakan <strong>Logistic Regression</strong> dan dashboard <strong>Metabase</strong>.
 </p>
 
-  <p><strong>Hasil Insight:</strong></p>
-  <p>Lembur dan kurangnya promosi dalam 0–2 tahun terakhir jadi faktor utama attrition. Departemen Sales mencatat attrition tertinggi (\~22%). Disarankan pengurangan beban lembur dan penerapan program promosi terjadwal.
+<p>
+  Analisis fokus pada lembur, promosi, dan masa kerja. Model seimbang dipilih karena meningkatkan recall dari 50% ke 72%. Visualisasi menampilkan attrition per departemen, dampak lembur, dan tren promosi.
+</p>
+
+<p>
+  Insight utama: lembur dan minimnya promosi dalam 0–2 tahun jadi pemicu attrition. Departemen Sales menyumbang attrition tertinggi (~22%). Direkomendasikan pengurangan lembur dan promosi terjadwal.
 </p>
 
   <p><strong>Model Disimpan:</strong> logistic_attrition_model.pkl (class-balanced version)</p>
