@@ -238,12 +238,6 @@
     Proyek akhir kelas <strong>Belajar Penerapan Data Science</strong> oleh <strong>Laskar AI x Dicoding</strong>, menganalisis penyebab <em>attrition</em> (>12%) di Jaya Jaya Maju dengan <strong>Logistic Regression</strong> dan visualisasi interaktif di <strong>Metabase</strong>.
 
   </p>
-  <p><strong>Peran:</strong> Exploratory Data Analysis, pemodelan, dan visualisasi bisnis.</p>
-  <p>
-    <span class="badge">HR Analytics</span>
-    <span class="badge">Logistic Regression</span>
-    <span class="badge">Metabase</span>
-  </p>
 
   <p><strong>Fitur Utama:</strong></p>
   <p>Proyek ini menganalisis pola attrition berdasarkan lembur, promosi, dan masa kerja. Dua model Logistic Regression dibangun; model seimbang dipilih karena meningkatkan recall dari 50% ke 72%. Hasilnya divisualisasikan lewat dashboard Metabase yang menyoroti attrition per departemen, dampak lembur, dan tren promosi.
@@ -261,6 +255,11 @@
     Visual ini menampilkan ringkasan attrition rate perusahaan, distribusi berdasarkan lembur, masa kerja, promosi terakhir, dan departemen. 
     Tujuannya adalah memberi wawasan cepat dan actionable kepada tim HR melalui tampilan interaktif berbasis Metabase.
   </p>
+  <p>
+    <span class="badge">HR Analytics</span>
+    <span class="badge">Logistic Regression</span>
+    <span class="badge">Metabase</span>
+  </p>
 </div>
 
 
@@ -274,17 +273,16 @@
     </a>
   </p>
   <p>
-    Proyek akhir kelas <strong>Belajar Fundamental Deep Learning</strong> dengan model CNN untuk klasifikasi 10 penyakit daun tomat. Dataset berisi 10.000 gambar yang dibagi menjadi train, validation, dan test, dengan augmentasi untuk meningkatkan generalisasi.
-  </p>
-  <p>
-    Arsitektur model terdiri dari 3 blok Conv2D + MaxPooling, diikuti Dense layer dan Dropout. 
-    Model dilatih menggunakan <strong>Adam optimizer</strong> dan EarlyStopping. Evaluasi menunjukkan:
-  </p>
-  <ul>
-    <li><strong>Akurasi:</strong> 91.2%</li>
-    <li><strong>F1-Score Macro:</strong> 0.91</li>
-    <li>Performa stabil pada semua kelas, termasuk deteksi daun sehat</li>
-  </ul>
+  Proyek akhir kelas <strong>Belajar Fundamental Deep Learning</strong> ini menggunakan CNN untuk klasifikasi 10 penyakit daun tomat dari 10.000 gambar, dengan augmentasi untuk generalisasi.
+</p>
+<p>
+  Arsitektur terdiri dari 3 blok Conv2D + MaxPooling, dilanjutkan Dense dan Dropout. Model dilatih dengan <strong>Adam optimizer</strong> dan <strong>EarlyStopping</strong>.
+</p>
+<ul>
+  <li><strong>Akurasi:</strong> 91.2%</li>
+  <li><strong>F1-Score Macro:</strong> 0.91</li>
+  <li>Performa stabil di semua kelas, termasuk daun sehat</li>
+</ul>
 
   <div class="image-block">
     <img src="Asset/training_validation_plot.png" alt="Training vs Validation Accuracy and Loss">
@@ -312,26 +310,24 @@
     </a>
   </p>
   <p>
-    Proyek skripsi yang bertujuan mengembangkan sistem klasifikasi untuk membedakan wajah anak dengan gangguan spektrum autisme (ASD) dan wajah anak normal. 
-    Sistem ini memanfaatkan teknik ekstraksi fitur <strong>SURF (Speeded-Up Robust Features)</strong> dan lima varian algoritma <strong>Boosting</strong>.
+  Proyek skripsi ini mengembangkan sistem klasifikasi wajah anak dengan dan tanpa autisme menggunakan fitur <strong>SURF</strong> dan lima algoritma <strong>Boosting</strong>.
   </p>
 
   <h4>🎯 Tujuan</h4>
   <ul>
-    <li>Mengklasifikasikan wajah anak autis dan normal secara otomatis berbasis citra.</li>
-    <li>Mengevaluasi performa lima algoritma Boosting terhadap fitur citra hasil ekstraksi SURF.</li>
+    <li>Mengklasifikasikan wajah anak autis dan normal berbasis citra.</li>
+    <li>Mengevaluasi performa lima model Boosting terhadap fitur hasil ekstraksi SURF.</li>
   </ul>
 
   <h4>📁 Dataset</h4>
   <p>
-    Dataset berisi 203 gambar (.jpg) dari Bundaku Autism Clinic Center, terdiri dari 102 gambar autis dan 101 normal, dengan rasio split 80% untuk pelatihan dan 20% untuk pengujian.
+  Terdiri dari 203 gambar (102 autis, 101 normal) dari Bundaku Autism Clinic Center, dengan split data 80% pelatihan dan 20% pengujian.
   </p>
 
   <h4>⚙️ Metodologi</h4>
   <p>
-    Gambar dikonversi ke grayscale dan fitur wajah diekstraksi dengan <strong>SURF</strong>. Lima model Boosting dilatih: AdaBoost, GradientBoost, LightGBM, CatBoost, dan XGBoost. Evaluasi dilakukan dengan metrik Accuracy, Precision, Recall, F1-Score, dan F2-Score.
+    Gambar diubah ke grayscale, fitur diekstraksi menggunakan <strong>SURF</strong>, lalu diklasifikasikan dengan AdaBoost, GradientBoost, LightGBM, CatBoost, dan XGBoost.       Evaluasi menggunakan metrik Accuracy, Precision, Recall, F1, dan F2-Score.
   </p>
-
   <h4>📊 Hasil Evaluasi</h4>
   <table style="width:100%; border-collapse: collapse; color: #e0e0e0;">
   <thead>
@@ -412,12 +408,11 @@
     </a>
   </p>
   <p>
-    Submission proyek kelas <strong>"Belajar Fundamental Deep Learning"</strong> ini menganalisis sentimen review aplikasi Gojek dari Google Play Store. Proyek mencakup scraping, preprocessing, pelabelan sentimen berbasis lexicon, visualisasi, dan klasifikasi dengan <strong>MLPClassifier</strong>.
-  </p>
-  <p>
-    Scraping 10.000 review aplikasi Gojek dilakukan dengan <strong>google-play-scraper</strong>. Teks diproses melalui slang correction, tokenisasi, stopword removal, dan stemming. Sentimen dilabeli menggunakan lexicon positif-negatif. Model <strong>MLPClassifier</strong> digunakan dengan akurasi pengujian sebesar 92,14%.
-  </p>
-
+  Proyek kelas <strong>"Belajar Fundamental Deep Learning"</strong> menganalisis sentimen 10.000 review Gojek dari Google Play Store. Tahapan mencakup scraping, preprocessing, pelabelan berbasis lexicon, visualisasi, dan klasifikasi dengan <strong>MLPClassifier</strong>.
+</p>
+<p>
+  Proses mencakup slang correction, tokenisasi, stopword removal, dan stemming. Sentimen ditentukan via lexicon, dengan model <strong>MLPClassifier</strong> mencapai akurasi 92,14%.
+</p>
   <div class="image-block">
     <img src="Asset/Sentiment Polarity Data.png" alt="Distribusi Sentimen Review Gojek"
       style="max-width:100%; border-radius: 10px; box-shadow: 0 0 10px rgba(0,0,0,0.2);">
@@ -540,15 +535,16 @@ weighted avg       0.92      0.92      0.92      6437
   <!-- 📌 Hasil & Kesimpulan -->
   <h4>📌 Hasil & Kesimpulan</h4>
   <div class="conclusion" style="line-height: 1.7; font-size: 1rem; rgba(0,0,0,0.15);">
-    <p>
-      Proyek ini menggunakan <strong>KMeans</strong> untuk segmentasi masyarakat berdasarkan pengeluaran tahunan. Tiga klaster terbukti optimal, dan <strong>PowerTransformer</strong> berhasil menormalkan data yang awalnya skewed.
-    </p>
-    <p>
-      Hasil klaster digunakan sebagai label untuk klasifikasi. Dua model—<strong>Logistic Regression</strong> dan <strong>KNN</strong>—dibangun dengan <strong>F1-score >99%</strong> dan confusion matrix nyaris sempurna di semua kelas.
-    </p>
-    <p>
-      Selain itu, <strong>learning curve</strong> menunjukkan performa stabil tanpa overfitting atau underfitting. Ini menandakan pipeline machine learning yang dibangun efektif, akurat, stabil, dan dapat direproduksi.
-    </p>
+   <p>
+  Proyek ini menerapkan <strong>KMeans</strong> untuk segmentasi pengeluaran tahunan, dengan <strong>PowerTransformer</strong> untuk normalisasi data skewed. Tiga klaster terbukti optimal.
+</p>
+<p>
+  Klaster digunakan sebagai label klasifikasi. Model <strong>Logistic Regression</strong> dan <strong>KNN</strong> mencapai <strong>F1-score >99%</strong> dengan confusion matrix nyaris sempurna.
+</p>
+<p>
+  <strong>Learning curve</strong> menunjukkan performa stabil tanpa overfitting, menandakan pipeline yang efektif dan andal.
+</p>
+
   </div>
   <p>
     <span class="badge">MLOps</span>
