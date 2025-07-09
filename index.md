@@ -196,6 +196,7 @@
     <p class="caption">Tampilan aplikasi Streamlit: upload gambar daun, hasil klasifikasi muncul langsung.</p>
   </div>
   <p><span class="badge">Image Classification</span> <span class="badge">MobileNetV1</span> <span class="badge">Streamlit</span> <span class="badge">Transfer Learning</span><span class="badge">Agritech</span></p> 
+</div>
 
 🎓 Prediksi Dropout Mahasiswa
 <div class="project">
@@ -223,7 +224,7 @@
   </div>
   <p><a href="https://jayajayainstitut-k75cbyntzam6qn66aabwtv.streamlit.app/" target="_blank">🔗 Lihat Demo Aplikasi Streamlit</a></p>
   <p><span class="badge">Classification</span> <span class="badge">Metabase</span> <span class="badge">Streamlit</span> <span class="badge">Random Forest</span></p>
-
+</div>
 🧑‍💼 Analisis Attrition Human Resources
 <div class="project">
   <div class="subtitle">Laskar AI x Dicoding</div>
